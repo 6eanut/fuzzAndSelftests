@@ -1,0 +1,780 @@
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:114	kvm_coalesced_mmio_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:118	kvm_coalesced_mmio_free
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:119	kvm_coalesced_mmio_free
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:120	kvm_coalesced_mmio_free
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:99	kvm_coalesced_mmio_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:260	kvm_dirty_ring_check_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:269	kvm_dirty_ring_free
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:103	free_irq_routing_table
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:106	free_irq_routing_table
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:110	free_irq_routing_table
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:116	free_irq_routing_table
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:123	kvm_free_irq_routing
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:125	kvm_free_irq_routing
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:253	kvm_init_irq_routing
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:261	kvm_init_irq_routing
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1002	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1008	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1011 (discriminator 3)	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1012 (discriminator 3)	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1013	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1015	kvm_destroy_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1025	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1040	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1045	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1052	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1058	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1062	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1067	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1073	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1077	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1082	kvm_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1095	kvm_arch_pre_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1103	kvm_arch_create_vm_debugfs
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1111	kvm_get_bus_for_destruction
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1124	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1159	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1162	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1166	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1170	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1176	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1182	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1186	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1193	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1197	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1202	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1209	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1217	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1219	kvm_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1280	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1292	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1294	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1310	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1313	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1317	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1319	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1321	kvm_free_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1323	kvm_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1337	kvm_get_kvm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1353	kvm_put_kvm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1355	kvm_put_kvm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1373	kvm_vm_release
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:143 (discriminator 4)	kvm_no_compat_open
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1458	kvm_get_inactive_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1471	kvm_memslots_get_as_id
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1471 (discriminator 1)	kvm_memslots_get_as_id
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1475	kvm_memslots_get_as_id
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1481	kvm_memslots_get_as_id
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1488	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1491	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1494	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1496	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1498	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1499	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1504	kvm_insert_gfn_node
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1539	kvm_replace_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1560	kvm_replace_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:158	kvm_arch_guest_memory_reclaimed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1586	kvm_replace_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1617	check_memory_region_flags
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1628	kvm_swap_active_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1631 (discriminator 3)	kvm_swap_active_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1646	kvm_swap_active_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:167	vcpu_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1696	kvm_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1697	kvm_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1710	kvm_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1724	kvm_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1725	kvm_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:173 (discriminator 3)	vcpu_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1732	kvm_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1733	kvm_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1741	kvm_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:178	vcpu_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1802	kvm_activate_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:183 (discriminator 3)	vcpu_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1867	kvm_create_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1914	kvm_set_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1931	kvm_set_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1979	kvm_set_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2002	kvm_set_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2019	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2028	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2030 (discriminator 9)	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2034	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2041	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2044	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2045 (discriminator 1)	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2046	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2049	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2053 (discriminator 1)	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2055	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2064 (discriminator 1)	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2076	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2086	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2096	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2115	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2124	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2136	kvm_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2166	kvm_vm_ioctl_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2169	kvm_vm_ioctl_set_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:222	kvm_make_vcpu_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:225	kvm_make_vcpu_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:238	kvm_make_vcpu_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:243	kvm_make_vcpu_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:253	kvm_make_vcpus_request_mask
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:258 (discriminator 2)	kvm_make_vcpus_request_mask
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:262	kvm_make_vcpus_request_mask
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2654	gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:266	kvm_make_vcpus_request_mask
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2660	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2668	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2672	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2681	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2682	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2683	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2688	kvm_vcpu_gfn_to_memslot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:269 (discriminator 3)	kvm_make_vcpus_request_mask
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2733	memslot_is_readonly
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2739	__gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2739 (discriminator 1)	__gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2742	__gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2745	__gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2749	__gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2754	gfn_to_hva_many
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2772	kvm_vcpu_gfn_to_hva
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2773	kvm_vcpu_gfn_to_hva
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2789	gfn_to_hva_memslot_prot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2790	gfn_to_hva_memslot_prot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2793	gfn_to_hva_memslot_prot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2827	kvm_set_page_accessed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2836	kvm_release_page_clean
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2842	kvm_release_page_dirty
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2847	kvm_release_page_dirty
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2847	kvm_set_page_dirty
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2855	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2857 (discriminator 3)	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2858	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2860	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2863	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2863 (discriminator 19)	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2865	kvm_resolve_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2886	hva_to_pfn_fast
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2889	hva_to_pfn_fast
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2895	hva_to_pfn_fast
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2919	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2923	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2926	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2927	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2935	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2939	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2941	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2947	hva_to_pfn_slow
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3009	hva_to_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3014	hva_to_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3055	kvm_follow_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3061	kvm_follow_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3069	kvm_follow_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3070	kvm_follow_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3075	__kvm_faultin_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3076	__kvm_faultin_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3084 (discriminator 2)	__kvm_faultin_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3087	__kvm_faultin_pfn
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3197	next_segment
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3319	__kvm_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3325	__kvm_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3326	__kvm_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3328	__kvm_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3330	__kvm_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3344	kvm_vcpu_write_guest_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3376	kvm_vcpu_write_guest
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3379	kvm_vcpu_write_guest
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3385	kvm_vcpu_write_guest
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3389	kvm_vcpu_write_guest
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:354	mmu_memory_cache_alloc_obj
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3540	mark_page_dirty_in_slot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3543 (discriminator 1)	mark_page_dirty_in_slot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3549 (discriminator 9)	mark_page_dirty_in_slot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3558	mark_page_dirty_in_slot
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3574	kvm_vcpu_mark_page_dirty
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3581	kvm_sigset_activate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:359	mmu_memory_cache_alloc_obj
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3591	kvm_sigset_activate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3595	kvm_sigset_deactivate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:360	mmu_memory_cache_alloc_obj
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3600	kvm_sigset_deactivate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:367	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:370 (discriminator 4)	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:373	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:374	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:381	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3839	__kvm_vcpu_kick
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3859	__kvm_vcpu_kick
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3876	__kvm_vcpu_kick
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3877 (discriminator 3)	__kvm_vcpu_kick
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:388	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:395	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:399	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:402	__kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:406	kvm_mmu_topup_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4071	kvm_vcpu_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4075	kvm_vcpu_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4075 (discriminator 19)	kvm_vcpu_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4091	kvm_vcpu_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4093	kvm_vcpu_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4101	kvm_vcpu_mmap
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4105	kvm_vcpu_mmap
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4109	kvm_vcpu_mmap
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4111	kvm_vcpu_mmap
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4115	kvm_vcpu_release
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4136	create_vcpu_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:416	kvm_mmu_free_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4189	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4192	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4198	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4204	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4214	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4227	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:423	kvm_mmu_free_memory_cache
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4234	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4244	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4255	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4265	kvm_vm_ioctl_create_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:433	kvm_mmu_memory_cache_alloc
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4336	kvm_vcpu_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4342	kvm_vcpu_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4349	kvm_vcpu_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4350	kvm_vcpu_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:436	kvm_mmu_memory_cache_alloc
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:437	kvm_mmu_memory_cache_alloc
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:439 (discriminator 2)	kvm_mmu_memory_cache_alloc
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4409	kvm_wait_for_vcpu_online
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4430	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4431	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4435	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4437 (discriminator 1)	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4440	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4456	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4460	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4462	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4466	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4475	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4484	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4491 (discriminator 2)	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4576	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4669	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4672	kvm_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:469	kvm_vcpu_destroy
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:488	kvm_destroy_vcpus
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4888	kvm_vm_ioctl_check_extension_generic
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4959	kvm_vm_ioctl_check_extension_generic
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4960	kvm_vm_ioctl_check_extension_generic
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5144	kvm_vm_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5148	kvm_vm_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5156	kvm_vm_ioctl_get_stats_fd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5171	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5172	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5176 (discriminator 1)	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5178	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5193	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5196	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5219	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5405	kvm_vm_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5508	kvm_dev_ioctl_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5512	kvm_dev_ioctl_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5515	kvm_dev_ioctl_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5520	kvm_dev_ioctl_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5534	kvm_dev_ioctl_create_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5546	kvm_dev_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5549	kvm_dev_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5559	kvm_dev_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5562	kvm_dev_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5576	kvm_dev_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5751	kvm_enable_virtualization
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5764 (discriminator 1)	kvm_disable_virtualization
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5802	kvm_io_bus_destroy
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5807	kvm_io_bus_destroy
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:586	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:588	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:592	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:596	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6315	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6318	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6320	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6323	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6333	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6342	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6348	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6350	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6351	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6355	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6358	kvm_uevent_notify_change
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:639	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6401	kvm_sched_in
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:643	kvm_handle_hva_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6438	kvm_get_running_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6443 (discriminator 3)	kvm_get_running_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:681	kvm_mmu_invalidate_begin
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:681 (discriminator 1)	kvm_mmu_invalidate_begin
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:687 (discriminator 9)	kvm_mmu_invalidate_begin
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:690	kvm_mmu_invalidate_begin
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:693	kvm_mmu_invalidate_begin
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:697	kvm_mmu_invalidate_range_add
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:697 (discriminator 1)	kvm_mmu_invalidate_range_add
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:699 (discriminator 9)	kvm_mmu_invalidate_range_add
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:701 (discriminator 3)	kvm_mmu_invalidate_range_add
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:703	kvm_mmu_invalidate_range_add
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:723	kvm_mmu_unmap_gfn_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:729	kvm_mmu_notifier_invalidate_range_start
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:732	kvm_mmu_notifier_invalidate_range_start
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:772	kvm_mmu_notifier_invalidate_range_start
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:779	kvm_mmu_invalidate_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:779 (discriminator 1)	kvm_mmu_invalidate_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:786 (discriminator 9)	kvm_mmu_invalidate_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:800 (discriminator 12)	kvm_mmu_invalidate_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:801 (discriminator 3)	kvm_mmu_invalidate_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:805	kvm_mmu_notifier_invalidate_range_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:808	kvm_mmu_notifier_invalidate_range_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:822	kvm_mmu_notifier_invalidate_range_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:831	kvm_mmu_notifier_invalidate_range_end
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:979	kvm_free_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:982	kvm_free_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:984	kvm_free_memslots
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:107	kvm_riscv_vcpu_aia_update_hvip
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:108 (discriminator 14)	kvm_riscv_vcpu_aia_update_hvip
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:130	kvm_riscv_vcpu_aia_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:141	kvm_riscv_vcpu_aia_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:143	kvm_riscv_vcpu_aia_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:153	kvm_riscv_vcpu_aia_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:168	kvm_riscv_vcpu_aia_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia.c:178	kvm_riscv_vcpu_aia_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:492	kvm_riscv_vcpu_aia_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:497	kvm_riscv_vcpu_aia_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:505	kvm_riscv_vcpu_aia_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:513	kvm_riscv_vcpu_aia_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:530	kvm_riscv_vcpu_aia_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:532	kvm_riscv_vcpu_aia_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:537	kvm_riscv_vcpu_aia_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:542	kvm_riscv_vcpu_aia_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:624	kvm_riscv_aia_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:633	kvm_riscv_aia_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:638	kvm_riscv_aia_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/aia_device.c:643	kvm_riscv_aia_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:107	kvm_riscv_gstage_get_leaf
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:117	gstage_tlb_flush
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:120	gstage_tlb_flush
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:120 (discriminator 3)	gstage_tlb_flush
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:122 (discriminator 1)	gstage_tlb_flush
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:129	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:132	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:135	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:136	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:140	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:142	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:145	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:154	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:157	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:160	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:164	kvm_riscv_gstage_set_pte
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:175	kvm_riscv_gstage_map_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:196	kvm_riscv_gstage_map_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:210	kvm_riscv_gstage_map_page
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:256	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:264	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:265	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:270	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:284	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:284 (discriminator 1)	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:284 (discriminator 2)	kvm_riscv_gstage_unmap_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:35	gstage_pte_index
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:49	gstage_page_size_to_level
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:50	gstage_page_size_to_level
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:60	gstage_level_to_page_order
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:63	gstage_level_to_page_order
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:86	kvm_riscv_gstage_get_leaf
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/gstage.c:89	kvm_riscv_gstage_get_leaf
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:130	kvm_arch_memslots_updated
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:134	kvm_arch_flush_shadow_all
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:158	kvm_arch_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:164	kvm_arch_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:164 (discriminator 1)	kvm_arch_commit_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:180	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:188	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:189 (discriminator 3)	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:192	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:214	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:222	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:222 (discriminator 1)	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:228	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:238	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:241	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:243	kvm_arch_prepare_memory_region
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:246	kvm_unmap_gfn_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:250	kvm_unmap_gfn_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:255	kvm_unmap_gfn_range
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:320	fault_supports_gstage_huge_mapping
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:451	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:458	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:468	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:481	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:483	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:495 (discriminator 1)	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:495 (discriminator 3)	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:498	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:498 (discriminator 1)	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:509	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:512 (discriminator 1)	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:513	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:519	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:526	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:533	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:542	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:542 (discriminator 1)	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:545	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:546	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:554	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:558	kvm_riscv_mmu_map
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:567	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:572	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:576	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:576 (discriminator 19)	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:577	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:577 (discriminator 19)	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:577 (discriminator 25)	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:580	kvm_riscv_mmu_alloc_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:583	kvm_riscv_mmu_free_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:588	kvm_riscv_mmu_free_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:591	kvm_riscv_mmu_free_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:593 (discriminator 3)	kvm_riscv_mmu_free_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:601	kvm_riscv_mmu_free_pgd
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:606	kvm_riscv_mmu_update_hgatp
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:612	kvm_riscv_mmu_update_hgatp
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:614 (discriminator 14)	kvm_riscv_mmu_update_hgatp
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/mmu.c:616	kvm_riscv_mmu_update_hgatp
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:165	kvm_riscv_local_tlb_sanitize
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:166 (discriminator 1)	kvm_riscv_local_tlb_sanitize
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:180 (discriminator 2)	kvm_riscv_local_tlb_sanitize
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:189	kvm_riscv_local_tlb_sanitize
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:227	vcpu_hfence_dequeue
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:228	vcpu_hfence_dequeue
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:253	vcpu_hfence_enqueue
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:273	kvm_riscv_hfence_process
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:281	kvm_riscv_hfence_process
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:29	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:29 (discriminator 3)	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:339	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:339 (discriminator 1)	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:340	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:347	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:349 (discriminator 2)	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:35	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:36	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:36 (discriminator 4)	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:361	make_xfence_request
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:38 (discriminator 6)	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:384	kvm_riscv_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:39	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/tlb.c:45	kvm_riscv_local_hfence_gvma_vmid_gpa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/trace.h:16	trace_kvm_entry
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/trace.h:31	trace_kvm_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:1000	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:1004	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:1011	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:119	kvm_riscv_reset_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:120 (discriminator 3)	kvm_riscv_reset_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:125	kvm_arch_vcpu_precreate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:131	kvm_arch_vcpu_create
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:158	kvm_arch_vcpu_create
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:176	kvm_arch_vcpu_create
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:185	kvm_arch_vcpu_postcreate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:187	kvm_arch_vcpu_postcreate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:191	kvm_arch_vcpu_destroy
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:243 (discriminator 1)	kvm_arch_vcpu_unlocked_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:244	kvm_arch_vcpu_unlocked_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:264	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:265	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:272	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:278	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:279	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:281	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:289	kvm_arch_vcpu_ioctl
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:352	kvm_riscv_vcpu_flush_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:371	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:371 (discriminator 11)	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:374	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:375 (discriminator 11)	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:388	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:398	kvm_riscv_vcpu_sync_interrupts
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:509 (discriminator 2)	kvm_arch_vcpu_ioctl_set_mpstate
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:545	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:549	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:551	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:552	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:554	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:555	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:557	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:558	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:560	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:561	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:562	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:565	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:567	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:570	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:571	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:574	kvm_riscv_vcpu_setup_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:605	kvm_arch_vcpu_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:619	kvm_arch_vcpu_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:625	kvm_arch_vcpu_load
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:648	kvm_arch_vcpu_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:671	kvm_arch_vcpu_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:673	kvm_arch_vcpu_put
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:699	kvm_riscv_check_vcpu_requests
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:704	kvm_riscv_check_vcpu_requests
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:72	kvm_riscv_vcpu_context_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:734	kvm_riscv_check_vcpu_requests
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:745	kvm_riscv_update_hvip
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:746	kvm_riscv_update_hvip
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:865	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:867	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:88	kvm_riscv_reset_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:885	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:895	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:900	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:905	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:911	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:918	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:924	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:93	kvm_riscv_reset_vcpu
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:933 (discriminator 1)	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:941 (discriminator 3)	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:971	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:977	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu.c:996 (discriminator 1)	kvm_arch_vcpu_ioctl_run
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:189	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:193	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:198	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:235	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:239	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:240	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:25	gstage_page_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:251	kvm_riscv_vcpu_exit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:31	gstage_page_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_exit.c:46	gstage_page_fault
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:21	kvm_riscv_vcpu_fp_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:24	kvm_riscv_vcpu_fp_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:27	kvm_riscv_vcpu_fp_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:31	kvm_riscv_vcpu_fp_clean
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:38	kvm_riscv_vcpu_guest_fp_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:45	kvm_riscv_vcpu_guest_fp_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:50	kvm_riscv_vcpu_guest_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:51	kvm_riscv_vcpu_guest_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:52	kvm_riscv_vcpu_guest_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:57	kvm_riscv_vcpu_guest_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:62	kvm_riscv_vcpu_host_fp_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:63	kvm_riscv_vcpu_host_fp_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:66	kvm_riscv_vcpu_host_fp_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:70	kvm_riscv_vcpu_host_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:71	kvm_riscv_vcpu_host_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_fp.c:74	kvm_riscv_vcpu_host_fp_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1234	kvm_riscv_vcpu_set_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1235	kvm_riscv_vcpu_set_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1239	kvm_riscv_vcpu_set_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1241	kvm_riscv_vcpu_set_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1253	kvm_riscv_vcpu_set_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1267	kvm_riscv_vcpu_get_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1268	kvm_riscv_vcpu_get_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1286	kvm_riscv_vcpu_get_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:1288	kvm_riscv_vcpu_get_reg
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:130	kvm_riscv_vcpu_isa_check_host
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:146	kvm_riscv_vcpu_isa_check_host
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:154	kvm_riscv_vcpu_isa_enable_allowed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:159	kvm_riscv_vcpu_isa_enable_allowed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:167	kvm_riscv_vcpu_isa_enable_allowed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:173	kvm_riscv_vcpu_isa_enable_allowed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:265 (discriminator 2)	kvm_riscv_vcpu_setup_isa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:268	kvm_riscv_vcpu_setup_isa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:271	kvm_riscv_vcpu_setup_isa
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:277	kvm_riscv_vcpu_get_reg_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:286	kvm_riscv_vcpu_get_reg_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:315	kvm_riscv_vcpu_get_reg_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:321	kvm_riscv_vcpu_get_reg_config
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:473	kvm_riscv_vcpu_set_reg_core
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:483	kvm_riscv_vcpu_set_reg_core
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:489	kvm_riscv_vcpu_set_reg_core
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:490	kvm_riscv_vcpu_set_reg_core
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:491	kvm_riscv_vcpu_set_reg_core
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:528	kvm_riscv_vcpu_general_set_csr
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:530	kvm_riscv_vcpu_general_set_csr
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:533	kvm_riscv_vcpu_general_set_csr
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_onereg.c:633	kvm_riscv_vcpu_set_reg_csr
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:812 (discriminator 1)	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:822	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:825	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:826 (discriminator 1)	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:826 (discriminator 2)	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:832	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:848	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:848 (discriminator 1)	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:848 (discriminator 2)	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:850	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:852	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:857	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:862	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:869	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:871	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:876	kvm_riscv_vcpu_pmu_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:881	kvm_riscv_vcpu_pmu_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:885	kvm_riscv_vcpu_pmu_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:898	kvm_riscv_vcpu_pmu_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_pmu.c:903	kvm_riscv_vcpu_pmu_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:104	riscv_vcpu_get_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:107	riscv_vcpu_get_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:108	riscv_vcpu_get_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:109	riscv_vcpu_get_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:133	kvm_riscv_vcpu_sbi_forward_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:204	kvm_riscv_vcpu_sbi_return
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:209	kvm_riscv_vcpu_sbi_return
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:216	kvm_riscv_vcpu_sbi_return
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:250	riscv_vcpu_get_sbi_ext_single
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:362	kvm_riscv_vcpu_get_reg_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:365	kvm_riscv_vcpu_get_reg_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:374	kvm_riscv_vcpu_get_reg_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:394	kvm_riscv_vcpu_get_reg_sbi_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:570	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:571	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:574 (discriminator 1)	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:575	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:576 (discriminator 1)	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:585	kvm_vcpu_sbi_find_ext
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:588	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:601	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:602 (discriminator 1)	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:608	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:625	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:635	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:639	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:647	kvm_riscv_vcpu_sbi_ecall
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:659 (discriminator 2)	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:660	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:667	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:667 (discriminator 1)	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:672	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:676 (discriminator 1)	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:679	kvm_riscv_vcpu_sbi_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:688 (discriminator 2)	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:689	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:691	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:697 (discriminator 2)	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:700	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:702	kvm_riscv_vcpu_sbi_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:711 (discriminator 2)	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:712	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:714	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:720 (discriminator 2)	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:723	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi.c:725	kvm_riscv_vcpu_sbi_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:23	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:36	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:46	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:47	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:48	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_base.c:66	kvm_sbi_ext_base_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:134	try_to_set_pmm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:142	kvm_sbi_fwft_pointer_masking_pmlen_supported
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:149	kvm_sbi_fwft_pointer_masking_pmlen_supported
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:153	kvm_sbi_fwft_reset_pointer_masking_pmlen
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:362	kvm_sbi_ext_fwft_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:363	kvm_sbi_ext_fwft_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:364	kvm_sbi_ext_fwft_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:373	kvm_sbi_ext_fwft_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:379	kvm_sbi_ext_fwft_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:389	kvm_sbi_ext_fwft_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:89	kvm_sbi_fwft_misaligned_delegation_supported
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_fwft.c:96	kvm_sbi_fwft_reset_misaligned_delegation
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_pmu.c:90	kvm_sbi_ext_pmu_probe
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:100	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:105	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:113	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:117	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:127	kvm_sbi_ext_sta_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:133	kvm_sbi_ext_sta_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:139	kvm_sbi_ext_sta_handler
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:147	kvm_sbi_ext_sta_probe
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:21	kvm_riscv_vcpu_sbi_sta_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:26	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:27	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:28	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:54	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:59	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:59 (discriminator 11)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:65	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:65 (discriminator 13)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:68	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:68 (discriminator 12)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:70	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:72	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:72 (discriminator 14)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:76	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:76 (discriminator 13)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:78 (discriminator 30)	kvm_riscv_vcpu_record_steal_time
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:84	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_sbi_sta.c:94	kvm_sbi_sta_steal_time_set_shmem
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:249	kvm_riscv_vcpu_timer_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:253	kvm_riscv_vcpu_timer_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:257	kvm_riscv_vcpu_timer_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:269	kvm_riscv_vcpu_timer_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:276	kvm_riscv_vcpu_timer_deinit
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:285	kvm_riscv_vcpu_timer_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:287	kvm_riscv_vcpu_timer_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:297	kvm_riscv_vcpu_update_timedelta
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:305	kvm_riscv_vcpu_timer_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:307	kvm_riscv_vcpu_timer_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:315	kvm_riscv_vcpu_timer_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:319 (discriminator 14)	kvm_riscv_vcpu_timer_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:323	kvm_riscv_vcpu_timer_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:329	kvm_riscv_vcpu_timer_sync
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:336	kvm_riscv_vcpu_timer_sync
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:336 (discriminator 11)	kvm_riscv_vcpu_timer_sync
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:338	kvm_riscv_vcpu_timer_sync
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:344	kvm_riscv_vcpu_timer_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:363	kvm_riscv_vcpu_timer_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:374	kvm_riscv_vcpu_timer_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:380	kvm_riscv_guest_timer_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_timer.c:63	kvm_riscv_vcpu_timer_cancel
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:24	kvm_riscv_vcpu_vector_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:29	kvm_riscv_vcpu_vector_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:31 (discriminator 3)	kvm_riscv_vcpu_vector_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:35	kvm_riscv_vcpu_vector_reset
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:39	kvm_riscv_vcpu_vector_clean
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:46	kvm_riscv_vcpu_guest_vector_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:51	kvm_riscv_vcpu_guest_vector_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:56	kvm_riscv_vcpu_guest_vector_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:57	kvm_riscv_vcpu_guest_vector_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:61	kvm_riscv_vcpu_guest_vector_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:66	kvm_riscv_vcpu_host_vector_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:68	kvm_riscv_vcpu_host_vector_save
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:72	kvm_riscv_vcpu_host_vector_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:74	kvm_riscv_vcpu_host_vector_restore
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:78	kvm_riscv_vcpu_alloc_vector_context
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:82	kvm_riscv_vcpu_alloc_vector_context
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:87	kvm_riscv_vcpu_alloc_vector_context
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vcpu_vector.c:91	kvm_riscv_vcpu_free_vector_context
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:178	kvm_vm_ioctl_check_extension
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:203	kvm_vm_ioctl_check_extension
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:211	kvm_vm_ioctl_check_extension
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:35	kvm_arch_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:39	kvm_arch_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:45	kvm_arch_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:50	kvm_arch_init_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vm.c:54	kvm_arch_destroy_vm
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:113	kvm_riscv_gstage_vmid_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:117 (discriminator 3)	kvm_riscv_gstage_vmid_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:122 (discriminator 1)	kvm_riscv_gstage_vmid_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:46	kvm_riscv_gstage_vmid_bits
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:51	kvm_riscv_gstage_vmid_init
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:59	kvm_riscv_gstage_vmid_ver_changed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:62	kvm_riscv_gstage_vmid_ver_changed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:64	kvm_riscv_gstage_vmid_ver_changed
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:72	kvm_riscv_gstage_vmid_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:73	kvm_riscv_gstage_vmid_update
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/vmid.c:92	kvm_riscv_gstage_vmid_update

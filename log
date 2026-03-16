@@ -1,0 +1,263 @@
+
+Project prefix : /home/jiakai/fuzzAndSelftests/dosomething
+Steps to run   : 1, 2, 3, 4
+
+======================================================================
+  Step 1 — Convert addresses to file:line / function
+======================================================================
+  Using addr2line: riscv64-linux-gnu-addr2line
+
+[1/3] Processing fuzz-old ...
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/fuzz-old-rawcover.txt ...
+  Total addresses: 17788, unique: 17788
+  Running riscv64-linux-gnu-addr2line on 17788 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 2150
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/fuzz-old-functions.txt
+
+[2/3] Processing fuzz-new ...
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/fuzz-new-rawcover.txt ...
+  Total addresses: 17165, unique: 17165
+  Running riscv64-linux-gnu-addr2line on 17165 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 2111
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/fuzz-new-functions.txt
+
+[3/3] Processing selftests/kvm ...
+  -> access_tracking_perf_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/access_tracking_perf_test_rawcover.txt ...
+  Total addresses: 11931, unique: 11931
+  Running riscv64-linux-gnu-addr2line on 11931 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 275
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/access_tracking_perf_test_functions.txt
+  -> arch_timer
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/arch_timer_rawcover.txt ...
+  Total addresses: 12911, unique: 12911
+  Running riscv64-linux-gnu-addr2line on 12911 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 423
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/arch_timer_functions.txt
+  -> coalesced_io_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/coalesced_io_test_rawcover.txt ...
+  Total addresses: 12482, unique: 12482
+  Running riscv64-linux-gnu-addr2line on 12482 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 812
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/coalesced_io_test_functions.txt
+  -> demand_paging_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/demand_paging_test_rawcover.txt ...
+  Total addresses: 13321, unique: 13321
+  Running riscv64-linux-gnu-addr2line on 13321 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 449
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/demand_paging_test_functions.txt
+  -> dirty_log_perf_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/dirty_log_perf_test_rawcover.txt ...
+  Total addresses: 13498, unique: 13498
+  Running riscv64-linux-gnu-addr2line on 13498 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 516
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/dirty_log_perf_test_functions.txt
+  -> dirty_log_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/dirty_log_test_rawcover.txt ...
+  Total addresses: 13663, unique: 13663
+  Running riscv64-linux-gnu-addr2line on 13663 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 563
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/dirty_log_test_functions.txt
+  -> ebreak_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/ebreak_test_rawcover.txt ...
+  Total addresses: 11673, unique: 11673
+  Running riscv64-linux-gnu-addr2line on 11673 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 734
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/ebreak_test_functions.txt
+  -> get-reg-list
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/get-reg-list_rawcover.txt ...
+  Total addresses: 11607, unique: 11607
+  Running riscv64-linux-gnu-addr2line on 11607 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 275
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/get-reg-list_functions.txt
+  -> guest_print_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/guest_print_test_rawcover.txt ...
+  Total addresses: 12282, unique: 12282
+  Running riscv64-linux-gnu-addr2line on 12282 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 724
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/guest_print_test_functions.txt
+  -> irqfd_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/irqfd_test_rawcover.txt ...
+  Total addresses: 10755, unique: 10755
+  Running riscv64-linux-gnu-addr2line on 10755 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 275
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/irqfd_test_functions.txt
+  -> kvm_binary_stats_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/kvm_binary_stats_test_rawcover.txt ...
+  Total addresses: 11392, unique: 11392
+  Running riscv64-linux-gnu-addr2line on 11392 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 322
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/kvm_binary_stats_test_functions.txt
+  -> kvm_create_max_vcpus
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/kvm_create_max_vcpus_rawcover.txt ...
+  Total addresses: 11457, unique: 11457
+  Running riscv64-linux-gnu-addr2line on 11457 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 305
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/kvm_create_max_vcpus_functions.txt
+  -> kvm_page_table_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/kvm_page_table_test_rawcover.txt ...
+  Total addresses: 13416, unique: 13416
+  Running riscv64-linux-gnu-addr2line on 13416 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 489
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/kvm_page_table_test_functions.txt
+  -> memslot_modification_stress_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/memslot_modification_stress_test_rawcover.txt ...
+  Total addresses: 13380, unique: 13380
+  Running riscv64-linux-gnu-addr2line on 13380 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 472
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/memslot_modification_stress_test_functions.txt
+  -> memslot_perf_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/memslot_perf_test_rawcover.txt ...
+  Total addresses: 13549, unique: 13549
+  Running riscv64-linux-gnu-addr2line on 13549 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 416
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/memslot_perf_test_functions.txt
+  -> mmu_stress_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/mmu_stress_test_rawcover.txt ...
+  Total addresses: 13637, unique: 13637
+  Running riscv64-linux-gnu-addr2line on 13637 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 463
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/mmu_stress_test_functions.txt
+  -> rseq_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/rseq_test_rawcover.txt ...
+  Total addresses: 13461, unique: 13461
+  Running riscv64-linux-gnu-addr2line on 13461 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 703
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/rseq_test_functions.txt
+  -> sbi_pmu_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/sbi_pmu_test_rawcover.txt ...
+  Total addresses: 14554, unique: 14554
+  Running riscv64-linux-gnu-addr2line on 14554 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 939
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/sbi_pmu_test_functions.txt
+  -> set_memory_region_test
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/set_memory_region_test_rawcover.txt ...
+  Total addresses: 11320, unique: 11320
+  Running riscv64-linux-gnu-addr2line on 11320 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 384
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/set_memory_region_test_functions.txt
+  -> steal_time
+  Reading addresses from /home/jiakai/fuzzAndSelftests/dosomething/addr2function/input/selftests-kvm-rawcover/steal_time_rawcover.txt ...
+  Total addresses: 13770, unique: 13770
+  Running riscv64-linux-gnu-addr2line on 13770 addresses (stdin mode) ...
+  addr2line done.
+  Relevant unique (file:line, function) pairs: 780
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/selftests-kvm-functions/steal_time_functions.txt
+
+======================================================================
+  Step 2 — Extract total kcov-instrumented blocks from vmlinux
+======================================================================
+  Using objdump   : riscv64-linux-gnu-objdump
+  Using addr2line : riscv64-linux-gnu-addr2line
+
+[sum] Processing fuzz-old ...
+  Running riscv64-linux-gnu-objdump on fuzz-old-vmlinux ...
+  Found 1381106 unique kcov instrumentation points
+  Running addr2line on 1381106 addresses (via stdin) ...
+  addr2line done.
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-rawcover-sum.txt  (kvm=2207, virt=1374)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-functions-sum.txt  (kvm=421, virt=314)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-all-filelines-kvm.txt  (2207 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-all-filelines-virt.txt  (1374 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-all-funcs-kvm.txt  (421 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-old-all-funcs-virt.txt  (314 entries)
+
+[sum] Processing fuzz-new ...
+  Running riscv64-linux-gnu-objdump on fuzz-new-vmlinux ...
+  Found 1392525 unique kcov instrumentation points
+  Running addr2line on 1392525 addresses (via stdin) ...
+  addr2line done.
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-rawcover-sum.txt  (kvm=2224, virt=1382)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-functions-sum.txt  (kvm=428, virt=314)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-all-filelines-kvm.txt  (2224 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-all-filelines-virt.txt  (1382 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-all-funcs-kvm.txt  (428 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/fuzz-new-all-funcs-virt.txt  (314 entries)
+
+[sum] Processing selftests-kvm ...
+  Running riscv64-linux-gnu-objdump on selftests-kvm-vmlinux ...
+  Found 1392525 unique kcov instrumentation points
+  Running addr2line on 1392525 addresses (via stdin) ...
+  addr2line done.
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-rawcover-sum.txt  (kvm=2224, virt=1382)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-functions-sum.txt  (kvm=428, virt=314)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-all-filelines-kvm.txt  (2224 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-all-filelines-virt.txt  (1382 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-all-funcs-kvm.txt  (428 entries)
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/sum/output/selftests-kvm-all-funcs-virt.txt  (314 entries)
+
+======================================================================
+  Step 3 — Compute coverage rates
+======================================================================
+
+[Step 3] Computing coverage rates via set intersection ...
+
+
+  [fuzz-old] Loading total sets from step2 ...
+  Total [arch/riscv/kvm]: 2207 file:lines, 421 functions
+  Total [virt]: 1374 file:lines, 314 functions
+  [fuzz-old] Loading covered sets from step1 ...
+  Covered [arch/riscv/kvm]: 1384 file:lines, 291 functions
+  Covered [virt]: 760 file:lines, 168 functions
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/fuzz-old-bb-cov.txt
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/fuzz-old-functions-cov.txt
+
+  [fuzz-new] Loading total sets from step2 ...
+  Total [arch/riscv/kvm]: 2224 file:lines, 428 functions
+  Total [virt]: 1382 file:lines, 314 functions
+  [fuzz-new] Loading covered sets from step1 ...
+  Covered [arch/riscv/kvm]: 1343 file:lines, 288 functions
+  Covered [virt]: 762 file:lines, 167 functions
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/fuzz-new-bb-cov.txt
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/fuzz-new-functions-cov.txt
+
+  [selftests-kvm] Loading total sets from step2 ...
+  Total [arch/riscv/kvm]: 2224 file:lines, 428 functions
+  Total [virt]: 1382 file:lines, 314 functions
+  [selftests-kvm] Loading covered sets from step1 ...
+  Merging 20 test-case function files ...
+  Covered [arch/riscv/kvm]: 661 file:lines, 164 functions
+  Covered [virt]: 570 file:lines, 143 functions
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/selftests-kvm-bb-cov.txt
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/selftests-kvm-functions-cov.txt
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/selftests-kvm-func-testcase-map.txt
+
+======================================================================
+  Step 4 — Generate HTML comparison reports
+======================================================================
+
+[Step 4] Loading coverage data ...
+  Loaded testcase map: 305 functions attributed
+  Generating reports ...
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/analyze/output/fuzz-old-selftests-kvm-compare.html
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/analyze/output/fuzz-new-selftests-kvm-compare.html
+  Written -> /home/jiakai/fuzzAndSelftests/dosomething/analyze/output/fuzz-old-fuzz-new-compare.html
+
+✅  All done in 2192.1s
+
+Outputs:
+  /home/jiakai/fuzzAndSelftests/dosomething/addr2function/output/
+  /home/jiakai/fuzzAndSelftests/dosomething/sum/output/
+  /home/jiakai/fuzzAndSelftests/dosomething/coverage/output/
+  /home/jiakai/fuzzAndSelftests/dosomething/analyze/output/*.html

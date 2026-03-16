@@ -1,0 +1,2 @@
+arch/riscv/kvm: covered=530 / total=2224 (23.83%)
+virt: covered=474 / total=1382 (34.30%)

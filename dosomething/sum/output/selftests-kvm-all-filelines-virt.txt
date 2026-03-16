@@ -1,0 +1,1382 @@
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:103
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:106
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:109
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:121
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:124
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:127
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:133
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:136
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:139
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:142
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:143
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:144
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:59
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:83
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:86
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/binary_stats.c:89
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:113
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:118
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:119
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:120
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:128
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:145
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:146
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:148
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:151
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:163
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:166
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:168
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:169
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:170 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:171
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:183
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:189
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:190
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:22
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:32
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:34
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:36
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:38
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:48
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:64
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:65
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:71
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:78
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/coalesced_mmio.c:99
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:120
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:131
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:131 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:133
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:137
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:142 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:158
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:16
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:165
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:168 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:173
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:176 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:185
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:205
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:206
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:21
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:215
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:224 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:226 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:241
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:259
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:26
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:26 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:264
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:269
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:271
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:28 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:28 (discriminator 6)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:28 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:34
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:40
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:58
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:61
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:61 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:66
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:77
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:81
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/dirty_ring.c:87
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1001
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1005
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1009
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1012
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1019
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:102
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1020
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1021
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1028
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1036
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:1052
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:112
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:115
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:125
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:145
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:155
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:169
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:169 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:169 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:172 (discriminator 11)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:180
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:180 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:182 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:182 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:184 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:195
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:205
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:219
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:225 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:234
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:235 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:238
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:243
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:264
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:269
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:275
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:278
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:278 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:280 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:286
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:288
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:304
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:344
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:374
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:38
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:389
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:402
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:408
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:413
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:419
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:424
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:426
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:427
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:432
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:436
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:440
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:447
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:452
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:453
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:46
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:482
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:486
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:49
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:508
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:509
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:511
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:512
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:514
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:515
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:518
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:527
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:530
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:530 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:530 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:532
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:539
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:54
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:547
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:547 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:549
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:550
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:551
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:559
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:56
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:569
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:571
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:578
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:580
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:594
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:600
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:601
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:602
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:62
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:621
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:624
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:64
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:642 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:670 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:688
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:691 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:691 (discriminator 5)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:694
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:703
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:713
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:717
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:722
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:749
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:765
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:769
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:773
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:777
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:783
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:785
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:787
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:790
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:793
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:796
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:802
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:81
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:815
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:816
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:842
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:843
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:844
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:845
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:847
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:848
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:856
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:858
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:872
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:882
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:890
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:892
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:894
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:897
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:912
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:917
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:921
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:923
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:936
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:94
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:940
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:944
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:945
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:946 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:947
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:948
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:949
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:952
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:952 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:955
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:958
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:963
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:967
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:973
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:976
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/eventfd.c:989
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:103
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:106
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:110
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:116
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:123
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:125
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:134
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:140
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:141
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:143
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:146
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:151
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:152
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:154
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:161
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:165
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:178
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:179
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:180
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:181
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:184
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:190
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:193 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:195
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:202
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:204
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:208
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:218
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:232
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:253
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:260
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:261
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:28
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:28 (discriminator 11)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:28 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:28 (discriminator 7)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:28 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:30 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:30 (discriminator 13)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:31
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:31 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:31 (discriminator 6)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:32 (discriminator 11)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:37
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:44
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:44 (discriminator 5)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:44 (discriminator 7)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:44 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:45 (discriminator 11)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:50
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:52 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:55
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:61
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:73
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:82
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:86
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:88
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:93
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/irqchip.c:96
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1002
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1008
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1011 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1012 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1013
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1021
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1035
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1036
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1040
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1045
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1052
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1053
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1058
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1062
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1067
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1068
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1073
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1077
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1082
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1085
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1095
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1103
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1111
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1159
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1162
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1166
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1170
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1176
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1182
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1186
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1193
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1197
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1202
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1209
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1214
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1219
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1230
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1234
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1236
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1238
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1240
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1241
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1243
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1245
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1249
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1280
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1288
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1292
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1294
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1309
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1310
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1311
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1313
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1317
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1319
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1320
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1321
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1323
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1337
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1338
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1347
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1353
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1355
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1367
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1368
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1368 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1373
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:138
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1384
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1386
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1386 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1388 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1388 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1389
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1391
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1394 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1395
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1397 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1406
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1409
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1409 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1411 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1411 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1412
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1416
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1419 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:142 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1420
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1422 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1431
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1433
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1433 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1435 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1435 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1436 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1458
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1471
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1471 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1471 (discriminator 7)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1475
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1477
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1479
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1479 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1491
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1494
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1497
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1498
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1499
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1501
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1504
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1505
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1511
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1522
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1539
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1544
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1545
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1548
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1550
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1560
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1579 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:158
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1617
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1618
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1628
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1630 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1631 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1641
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1646
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:167
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1696
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1697
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1698
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1699
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1700
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1706
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1710
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1713
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:172
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1724
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1725
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:173 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1730
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1731
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1732
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1733
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1735
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1736
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1737
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1741
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1756
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1763
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1772
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:178
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1780
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1800
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1802
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1811
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:182
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:183
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:183 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1867
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1879
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1892
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1905
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1914
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1931
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1949
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1963
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1967
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1979
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1981
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1983
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1991
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:1992
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2010
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2028
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2028 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2030 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2034
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2035
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2041
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2044
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2046
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2049
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2050 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2051
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2053
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2055
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:206
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2065 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2076
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2077
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2080
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2080 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2083
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2086
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2089
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2096
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2100
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2102
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2102 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2104
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2107
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2109
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2116 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2124
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:213
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2136
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2143
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2146
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2153
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2153 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2156
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2156 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2159
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2166
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2169
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:219
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:225
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2258
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2260
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2265
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2270
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2289
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2293
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2308
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2310
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2340
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2344
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2370
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2372
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2375
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:238
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2380
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2385
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2388
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2389
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:239
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2392
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:240 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2402
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2403
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2404
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:241
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2418
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2425
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2435
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2439
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:253
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:258 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:258 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:262
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2653
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:266
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2660
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2668
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2672
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:268 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2681
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2682
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2683
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2693
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2695
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2701
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2703
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2723
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2733
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2739
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2739 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2740
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2742
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2742 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2743
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2745
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2746
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:275
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2754
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2760
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2766
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2772
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2787
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2789
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2790
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2792
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2797
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2799
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2804
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2806
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2820
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2827
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2832
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2836
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:284 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2842
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2847
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:285 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2855
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2855 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2857
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2857 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2858
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2860
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2861
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2863
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2863 (discriminator 19)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2863 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2865
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2876
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:288
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2886
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2889
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2890
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2894
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2895
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2896
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:290 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2919
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2924
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2926
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2927
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2935
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2939
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2940
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2941
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2947
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2956
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:296
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2965
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2974
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2977
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2983
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2988
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2989
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2992
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2993
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:2997
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3004
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3011
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3014
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3016 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3025 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3027
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3036
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3040
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3043
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3044 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3050
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3055
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3061
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3064
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3065
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3069
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3076
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3084
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3084 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3087
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3090
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3101
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3104
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3107
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:311
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:312
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3120
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3136
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3155
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3155 (discriminator 19)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3155 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3156
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3159
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3163
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3169
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:317
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3172
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3176
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3179
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3180
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3182
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3183
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3186
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3189
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3191
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3197
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3198
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3200
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3210
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3210 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3216
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3217
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3225
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3234
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3242
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3252
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3256
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3262
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3272
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3276
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3286
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3303
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3307
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3319
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3319 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3325
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3326
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3328
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3329
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3335
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3344
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3353
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3363
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3367
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3374
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:338
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:338 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3384
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3388
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:339 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3396
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3397
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:340
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3406
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3414
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3415
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3423
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3426
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3428
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3430
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3437
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3447
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3449 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3452
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3453
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3457
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3460
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3461
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3463
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3466
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3468
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3475
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3485
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3487 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3490
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3491
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3495
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3498
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3501
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3502
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3512
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518 (discriminator 35)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518 (discriminator 41)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518 (discriminator 45)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3518 (discriminator 47)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3529
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3532
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:354
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3540
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3543 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3543 (discriminator 7)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3546
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3546 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3549 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3550
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3551
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3553 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3555
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3556
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3565
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:357
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3574
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3581
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:359
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3590
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3595
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3607
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:361
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3612
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3618
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3626
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3631
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3633
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3636
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3643
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3647
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3656
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:367
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3675
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3678
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3678 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3684
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3687
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3690
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3692 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:370 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3701
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3703
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3721
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:373
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3730
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3734
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:374
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:374 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3752
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3753
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3755
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3757
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3762
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3769
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3774
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3780
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3796
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3797
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3800 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3801
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3804
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3804 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3808
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:381
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:381 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:381 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3813
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3819
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3824
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3839
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:384
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3847
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3848 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3859
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3860 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3861 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3869
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3870
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3872
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3876
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3876 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:388
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3886
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3889
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3890
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3892
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3896
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:392
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:392 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3949
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:395
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3954
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3974
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3979
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:398
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3985
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:399
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:3994
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4018 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4019
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4023
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4035
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4035 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4036 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4037
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4043
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4045 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4046 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4047
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4047 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:406
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4061
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4063
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4071
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4075
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4075 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4082
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4082 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4085
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4089
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4091
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4092
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4101
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4105
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4106
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4109
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:411
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4110
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4115
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4134
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:416
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:417
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:418
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4189
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4192
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4194
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4198
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:420
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4200
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4204
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4214
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4227
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4228
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:423
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4234
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4243
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4244
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4255
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4265
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4275
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4279
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4282
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4284
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4286
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4288
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4301
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4308
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4315
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:433
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:433 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4334
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4342
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4345
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4349
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4350
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:436
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:437
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:438 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4409
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4417
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4420
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4422
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4431
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4432
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4437 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4440
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4456
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4458
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4460
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4466
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4475
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4484
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4491 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4511
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4519
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4525
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4530
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4539
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4549
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4555
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4559
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4568
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4571
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4576
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4580
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4583
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4585
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4592
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4595
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4599
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4600
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4605
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4615
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4618
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4631
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4641
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4647
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4669
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4672
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4675
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:469
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4723
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4726
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4741
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4744
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4750
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4752 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4757
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4759
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4761
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4763
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4764
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4772
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4776
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4783
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4796
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4799
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4811
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4814
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4817
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4818
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4823
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4824
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4825
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4832
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4839
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4844
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:485
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4851
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4857
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4861
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4862
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4865
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4868
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4870
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4875
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4876
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4878
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:488 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4882
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4888
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4959
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4970
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4974
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4975
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4978
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:498
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:498 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4983
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4986
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4992
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:4996
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5002
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5009
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5011
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5012
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5017
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5022
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5028
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5035
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5035 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5037 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5042 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5049
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5054
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5057
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5059
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5064
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5067
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:508
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5082
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5085
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5110
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5117
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5126
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5144
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5148
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5151
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5156
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5172
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5176 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5178
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5183
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5193
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5196
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5201
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5219
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5220 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5227
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5231
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5237
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5248
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5253
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5257
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5262
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5267
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5272
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5276
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5281
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5286
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5291
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5298
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5304
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5310
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5321
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5329
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5331
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5333
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5335
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5337
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5344
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5363
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5378
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5381
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5402
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5405
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5497
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5497 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5503
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5512
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5515
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5520
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5534
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5535
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5540
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5549
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5551
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5559
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5562
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5573
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5606
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5608
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5615
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5616
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5618
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5624
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5635
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5640
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5643
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5645 (discriminator 10)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5650
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5667
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5682
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5683
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5683 (discriminator 100)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5683 (discriminator 40)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5683 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5685 (discriminator 127)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5691
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5692
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5692 (discriminator 100)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5692 (discriminator 40)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5692 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5694 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5694 (discriminator 127)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5695 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5716
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5723
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:574
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5745
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5748
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5761
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5769
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5770
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5778
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5795
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5802
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5803
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5807
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5813
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5813 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5814
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5814 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5824
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5825
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5826
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5829
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5837
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5846
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5856
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5858
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5858 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:586
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5869
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5871
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5873
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5875
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5878
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:588
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5893
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5893 (discriminator 11)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5893 (discriminator 5)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5893 (discriminator 7)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5903
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5911
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5912
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:592
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5922
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5932
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5932 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5934
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5936
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5942
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5950
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5954
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5956
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5959
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:596
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5977
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5981
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5987
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5999
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:5999 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6006
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6009
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6020
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6020 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6024
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6032
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6041
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6041 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6045
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6047
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6047 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6048
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6053
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6056
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6059
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6061
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6065
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6079
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6090
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6096
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6100
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6114
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6124
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6125
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6128
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6135
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6145 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6152
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6152 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6159
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6164 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6165 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6167
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6172
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6175 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6176 (discriminator 4)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6178
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6186
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6188
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6192
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6197
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6205
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6208
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6210
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6214
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6225
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6239
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6245
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6249
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6255
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6261
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6265
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6267
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6270
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6271
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6275
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6282
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6282 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6285
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6291
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6297
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6298
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6299 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6301
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6303
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6306
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6308
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6315
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6318
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6320
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6323
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6333
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6342
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6348
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:635
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6350
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6351
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6355
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6357
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6374
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6379
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6385
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:639
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6394
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6417
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6418 (discriminator 2)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6421 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:643
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6438
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6440
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6442 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6451
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6457
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6463
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6464
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6472
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6475 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6478
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6491
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6498
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6508
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6520
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6528
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6536
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6562
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6564
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6579
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6582
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6584
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6585
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6598
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6602
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6603
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6605
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:6611
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:668
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:681
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:681 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:687 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:690
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:693
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:697
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:697 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:699 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:699 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:701 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:715
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:723
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:772
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:774
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:779
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:779 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:786 (discriminator 9)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:794
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:794 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:800 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:800 (discriminator 12)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:801 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:821 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:822
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:831
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:832
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:839
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:850
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:874
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:947
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:950
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:957
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:962
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:979
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:982
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_main.c:988
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_mm.h:87
+/home/jiakai/test-sysroot/kvm-riscv/arch/riscv/kvm/../../../virt/kvm/kvm_mm.h:93
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:100 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:103
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:111
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:113
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:115
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:115 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:120
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:135
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:143
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:145 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:146 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:161
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:165 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:168
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:168 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:177
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:179
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:181
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:181 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:186
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:201
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:209
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:211 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:212 (discriminator 3)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:214
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:35
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:36
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:37
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:38
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:40
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:41
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:44
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:45 (discriminator 1)
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:46
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:49
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:50
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:51
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:52
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:55
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:58
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:65
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:66
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:67
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:68
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:70
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:73
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:75
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:76
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:77
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:78
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:80
+/home/jiakai/test-sysroot/kvm-riscv/virt/lib/irqbypass.c:96
