@@ -1,120 +1,434 @@
 # KVM Coverage Analysis
 
-Analyzes kcov-based kernel coverage for `arch/riscv/kvm` and `virt/` subsystems,
-comparing three test suites: **fuzz-old**, **fuzz-new**, and **selftests/kvm**.
+A toolset for measuring and comparing **kcov-based kernel coverage** between
+syzkaller fuzzing campaigns and the upstream `selftests/kvm` test suite,
+targeting the `arch/riscv/kvm` and `virt/` subsystems of the Linux kernel.
 
-## Requirements
+---
 
-| Tool | Purpose |
-|------|---------|
-| `addr2line` | Map addresses to source file:line and function names |
-| `objdump` | Disassemble vmlinux to find all kcov instrumentation points |
-| Python ≥ 3.10 | Run analysis scripts |
+## Motivation
 
-Both `addr2line` and `objdump` must be the **cross-compiled RISC-V** versions
-(e.g. `riscv64-linux-gnu-addr2line`, `riscv64-linux-gnu-objdump`) if your host
-is not RISC-V. Symlink or alias them as `addr2line` / `objdump`, or set PATH
-accordingly.
+### Why fuzz KVM?
 
-## Directory Layout
+The Linux KVM subsystem is a critical piece of infrastructure: it underpins
+virtual machines on billions of devices. Bugs in KVM can lead to guest
+escapes, privilege escalation, or host kernel crashes. Yet KVM is notoriously
+difficult to test thoroughly because:
+
+- Its code paths are only reachable through a combination of **hypercalls,
+  ioctls, and guest CPU state transitions** that are hard to enumerate manually.
+- Many corner cases only manifest under unusual sequences of operations that
+  no human engineer would think to write as a regression test.
+
+**Fuzzing**, particularly with [syzkaller](https://github.com/google/syzkaller),
+is an effective way to explore this space automatically. Syzkaller generates
+semi-structured system call sequences guided by coverage feedback, allowing it
+to reach code paths that handwritten tests miss.
+
+### Why compare against `selftests/kvm`?
+
+`selftests/kvm` is the official in-tree test suite for KVM. It is carefully
+written, well-maintained, and is the baseline that most KVM developers rely
+on. However, it has inherent limitations:
+
+- Tests are **human-authored** and reflect the developer's mental model of
+  what to test — not necessarily what the code actually exercises.
+- Coverage tends to concentrate on common, well-understood paths (VM creation,
+  basic vCPU run loops, standard MMIO). Rare error paths, edge-case ioctl
+  orderings, and interactions between subsystems are often left untested.
+- The suite grows slowly; new kernel features frequently outpace the
+  corresponding test additions.
+
+### What this repository does
+
+This toolset answers the question:
+
+> *Which kernel functions in `arch/riscv/kvm` and `virt/` can syzkaller
+> (old or new grammar) trigger that `selftests/kvm` cannot — and vice versa?*
+
+Concretely, it:
+
+1. Converts raw kcov addresses from three test sources into `file:line` /
+   function-name form.
+2. Extracts the **complete set** of kcov-instrumented basic blocks and
+   functions from each `vmlinux` (the true denominator for coverage rate).
+3. Computes **basic-block coverage rate** and **function coverage rate** for
+   each test source, separately for `arch/riscv/kvm` and `virt/`.
+4. Generates interactive HTML reports that highlight which functions are
+   covered exclusively by each test source, with source-file paths and (for
+   `selftests/kvm`) the specific test case that triggered each function.
+
+The three test sources compared are:
+
+| Tag | Description |
+|-----|-------------|
+| `fuzz-old` | syzkaller run with the **old** KVM syscall grammar |
+| `fuzz-new` | syzkaller run with the **new/extended** KVM syscall grammar |
+| `selftests-kvm` | upstream `tools/testing/selftests/kvm` test suite |
+
+---
+
+## Repository Structure
+
+```
+kvm-coverage-analysis/
+├── run_all.py                  # Master script — runs all four steps
+├── setup_dirs.sh               # Creates the expected directory tree
+├── step1_addr2function.py      # Step 1: addr → file:line / function
+├── step2_get_sum.py            # Step 2: total instrumented BB / functions from vmlinux
+├── step3_get_coverage.py       # Step 3: coverage rates via set intersection
+├── step4_analyze_compare.py    # Step 4: HTML comparison reports
+└── README.md
+```
+
+### Input / Output Layout
+
+All inputs and outputs live under a single **prefix directory** that you
+specify at runtime (e.g. `~/fuzzAndSelftests/dosomething`).
 
 ```
 <prefix>/
+│
 ├── addr2function/
-│   ├── input/
-│   │   ├── fuzz-old-rawcover.txt          # one hex address per line
+│   ├── input/                              ← YOU place files here
+│   │   ├── fuzz-old-rawcover.txt           # one hex address per line
 │   │   ├── fuzz-new-rawcover.txt
-│   │   ├── selftests-kvm-rawcover/
-│   │   │   ├── <test1>_rawcover.txt
-│   │   │   └── <test2>_rawcover.txt
-│   │   ├── fuzz-old-vmlinux
-│   │   ├── fuzz-new-vmlinux
-│   │   └── selftests-kvm-vmlinux
-│   └── output/                            # generated by step 1
+│   │   ├── fuzz-old-vmlinux                # ⚠ NOT in repo (see below)
+│   │   ├── fuzz-new-vmlinux                # ⚠ NOT in repo (see below)
+│   │   ├── selftests-kvm-vmlinux           # ⚠ NOT in repo (see below)
+│   │   └── selftests-kvm-rawcover/
+│   │       ├── <test1>_rawcover.txt
+│   │       ├── <test2>_rawcover.txt
+│   │       └── ...
+│   └── output/                             ← generated by Step 1
 │       ├── fuzz-old-functions.txt
 │       ├── fuzz-new-functions.txt
 │       └── selftests-kvm-functions/
 │           ├── <test1>_functions.txt
 │           └── ...
+│
 ├── sum/
-│   ├── input/                             # symlink vmlinux files here
-│   └── output/                            # generated by step 2
+│   ├── input/                              ← symlink vmlinux files here
+│   │   ├── fuzz-old-vmlinux -> ...
+│   │   ├── fuzz-new-vmlinux -> ...
+│   │   └── selftests-kvm-vmlinux -> ...
+│   └── output/                             ← generated by Step 2
 │       ├── fuzz-old-rawcover-sum.txt
 │       ├── fuzz-old-functions-sum.txt
-│       └── ...
+│       ├── fuzz-old-all-filelines-kvm.txt  # complete instrumented file:line set
+│       ├── fuzz-old-all-filelines-virt.txt
+│       ├── fuzz-old-all-funcs-kvm.txt      # complete instrumented function set
+│       ├── fuzz-old-all-funcs-virt.txt
+│       └── ... (same for fuzz-new, selftests-kvm)
+│
 ├── coverage/
-│   └── output/                            # generated by step 3
+│   └── output/                             ← generated by Step 3
 │       ├── fuzz-old-bb-cov.txt
 │       ├── fuzz-old-functions-cov.txt
-│       └── ...
+│       ├── selftests-kvm-func-testcase-map.txt
+│       └── ... (same for fuzz-new, selftests-kvm)
+│
 └── analyze/
-    └── output/                            # generated by step 4
+    └── output/                             ← generated by Step 4
         ├── fuzz-old-selftests-kvm-compare.html
         ├── fuzz-new-selftests-kvm-compare.html
         └── fuzz-old-fuzz-new-compare.html
 ```
 
-## Setup
+---
+
+## Prerequisites
+
+### System tools
+
+| Tool | Package (Ubuntu/Debian) | Purpose |
+|------|------------------------|---------|
+| `riscv64-linux-gnu-objdump` | `binutils-riscv64-linux-gnu` | Disassemble vmlinux to find kcov instrumentation points |
+| `riscv64-linux-gnu-addr2line` | `binutils-riscv64-linux-gnu` | Map addresses to source file:line and function names |
+| Python ≥ 3.10 | `python3` | Run analysis scripts |
 
 ```bash
-# Create directory structure
-chmod +x setup_dirs.sh
-./setup_dirs.sh /path/to/prefix
-
-# Place your input files, then symlink vmlinux for step 2
-ln -s /path/to/prefix/addr2function/input/fuzz-old-vmlinux \
-      /path/to/prefix/sum/input/fuzz-old-vmlinux
-# (repeat for fuzz-new and selftests-kvm)
+sudo apt install binutils-riscv64-linux-gnu python3
 ```
 
-## Running
+> **Why RISC-V cross tools?**  The `vmlinux` files are built for
+> `riscv64`, so they cannot be disassembled or symbolized by the host's
+> native (x86-64) `objdump` / `addr2line`. The scripts auto-detect
+> `riscv64-linux-gnu-*` first; if not found they fall back to the bare
+> `objdump` / `addr2line`, which will fail silently on a mismatched binary.
+
+### Kernel build requirements
+
+The target kernel must be compiled with:
+
+```
+CONFIG_KCOV=y
+CONFIG_KCOV_INSTRUMENT_ALL=y   # or selective per-directory kcov Makefile entries
+CONFIG_DEBUG_INFO=y             # required for addr2line to produce meaningful output
+```
+
+Without `CONFIG_KCOV`, Step 2 will find zero instrumentation points.
+Without `CONFIG_DEBUG_INFO`, addr2line will return `??:0` for all addresses.
+
+---
+
+## vmlinux Files
+
+**The three `vmlinux` files are not included in this repository** because
+each one is typically **200 MB – 1 GB** in size after a debug build, making
+them impractical to store in git.
+
+You need to obtain or build them separately:
+
+### Option A — Build from source
 
 ```bash
-# Run all steps
+# Example for a RISC-V KVM kernel
+make ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- defconfig
+# Enable CONFIG_KCOV, CONFIG_DEBUG_INFO, CONFIG_KVM, etc.
+make ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- -j$(nproc)
+# The resulting vmlinux is at the repo root
+```
+
+### Option B — Extract from a running VM / test environment
+
+If you ran your fuzzing or selftests inside a VM, copy `vmlinux` from the
+host that built the kernel image. Make sure the `vmlinux` **exactly matches**
+the kernel that produced the rawcover data — mismatched builds will cause
+addr2line to map addresses to wrong or missing symbols.
+
+### Placing the files
+
+```bash
+PREFIX=~/fuzzAndSelftests/dosomething
+
+cp /path/to/fuzz-old-vmlinux   $PREFIX/addr2function/input/fuzz-old-vmlinux
+cp /path/to/fuzz-new-vmlinux   $PREFIX/addr2function/input/fuzz-new-vmlinux
+cp /path/to/selftests-vmlinux  $PREFIX/addr2function/input/selftests-kvm-vmlinux
+
+# Symlink into sum/input to avoid duplication
+ln -s $PREFIX/addr2function/input/fuzz-old-vmlinux      $PREFIX/sum/input/fuzz-old-vmlinux
+ln -s $PREFIX/addr2function/input/fuzz-new-vmlinux      $PREFIX/sum/input/fuzz-new-vmlinux
+ln -s $PREFIX/addr2function/input/selftests-kvm-vmlinux $PREFIX/sum/input/selftests-kvm-vmlinux
+```
+
+---
+
+## Usage
+
+### 1. Create the directory structure
+
+```bash
+chmod +x setup_dirs.sh
+./setup_dirs.sh /path/to/prefix
+```
+
+### 2. Place input files
+
+```
+<prefix>/addr2function/input/
+  fuzz-old-rawcover.txt          # one hex addr per line, e.g. 0xffffffff80007544
+  fuzz-new-rawcover.txt
+  fuzz-old-vmlinux
+  fuzz-new-vmlinux
+  selftests-kvm-vmlinux
+  selftests-kvm-rawcover/
+    kvm_create_max_vcpus_rawcover.txt
+    set_sregs_rawcover.txt
+    ... (one file per selftests/kvm test case)
+```
+
+Each `xxx_rawcover.txt` in `selftests-kvm-rawcover/` should contain the kcov
+addresses captured while running a single test case named `xxx`.
+The `xxx` prefix is used in the HTML report to attribute each covered function
+to the specific test that triggered it.
+
+### 3. Run all steps
+
+```bash
 python3 run_all.py --prefix /path/to/prefix
+```
 
-# Run only steps 3 and 4 (skip the slow addr2line / objdump passes)
-python3 run_all.py --prefix /path/to/prefix --steps 34
+### 4. Run individual steps
 
-# Run individual steps
+```bash
+# Step 1 only (addr → file:line/function) — slowest for large rawcover files
 python3 step1_addr2function.py --prefix /path/to/prefix
-python3 step2_get_sum.py       --prefix /path/to/prefix
-python3 step3_get_coverage.py  --prefix /path/to/prefix
+
+# Step 2 only (total instrumented BB/function counts from vmlinux) — very slow,
+# requires full objdump disassembly of vmlinux (~minutes per file)
+python3 step2_get_sum.py --prefix /path/to/prefix
+
+# Step 3 only (coverage rates via set intersection)
+python3 step3_get_coverage.py --prefix /path/to/prefix
+
+# Step 4 only (HTML reports)
 python3 step4_analyze_compare.py --prefix /path/to/prefix
 ```
 
-## Output Formats
+### 5. Re-run only specific steps
 
-### `*-functions.txt`  (step 1)
-Tab-separated, deduplicated:
+Once Steps 1 and 2 are complete (they produce the most expensive outputs),
+you can iterate on the analysis without re-running them:
+
+```bash
+# Only redo coverage computation and HTML generation
+python3 run_all.py --prefix /path/to/prefix --steps 34
+```
+
+---
+
+## Step-by-Step Explanation
+
+### Step 1 — `step1_addr2function.py`
+
+Reads raw kcov address files and maps each address to `file:line` and
+`function name` using `riscv64-linux-gnu-addr2line`.  Results are filtered
+to `arch/riscv/kvm` and `virt/` paths and deduplicated.
+
+**Key detail:** addresses are fed to addr2line via **stdin** in a single
+subprocess call (equivalent to `addr2line -e vmlinux -f < addrs`), which is
+both faster and avoids argument-length limits.
+
+Output format (`*-functions.txt`):
 ```
 arch/riscv/kvm/vcpu.c:123    kvm_arch_vcpu_create
 virt/kvm/kvm_main.c:456      kvm_vm_ioctl
 ```
 
-### `*-rawcover-sum.txt` / `*-functions-sum.txt`  (step 2)
+### Step 2 — `step2_get_sum.py`
+
+Disassembles each `vmlinux` with `riscv64-linux-gnu-objdump -d` and scans
+for every instruction that calls `__sanitizer_cov_trace_pc` (the kcov hook).
+
+> **Address semantics (verified empirically):** in RISC-V, the address that
+> kcov records at runtime is the address of the `jalr` call instruction
+> *itself*, not the return address. The script grabs the address of the line
+> containing `<__sanitizer_cov_trace_pc>`.
+
+Path normalization with `os.path.normpath()` is applied before subsystem
+matching to correctly handle compiler-generated paths such as:
 ```
-arch/riscv/kvm:412
-virt:1038
-total:1450
+arch/riscv/kvm/../../../virt/kvm/binary_stats.c  →  virt/kvm/binary_stats.c
 ```
 
-### `*-bb-cov.txt` / `*-functions-cov.txt`  (step 3)
+In addition to the numeric `*-sum.txt` files, Step 2 writes the **full sets**
+of instrumented `file:line` strings and function names per subsystem
+(`*-all-filelines-kvm.txt`, etc.) so that Step 3 can compute coverage via
+**set intersection** rather than a simple count ratio.
+
+### Step 3 — `step3_get_coverage.py`
+
+Computes coverage rates using proper set arithmetic:
+
 ```
-arch/riscv/kvm: covered=312 / total=412 (75.73%)
-virt: covered=280 / total=1038 (26.97%)
+BB coverage rate  =  |covered file:lines  ∩  total file:lines|  /  |total file:lines|
+Fn coverage rate  =  |covered func names  ∩  total func names|  /  |total func names|
 ```
 
-### HTML reports  (step 4)
-Interactive comparison with:
-- Coverage summary tables with progress bars
-- Venn-style function set counts (A-only, B-only, shared)
-- Searchable tables of functions unique to each test suite
-- Separate sections for `arch/riscv/kvm` and `virt/`
+This guarantees the numerator is always a true subset of the denominator —
+avoiding the "covered > total" artifacts that arise from simple counting when
+addr2line outputs slightly different strings for the same conceptual location.
 
-## Metrics
+For `selftests-kvm`, also writes
+`selftests-kvm-func-testcase-map.txt` — a TSV mapping each covered function
+to the test case(s) that triggered it (derived from the `xxx_rawcover.txt`
+filenames).
 
-| Metric | Definition |
-|--------|-----------|
-| **Basic Block Coverage** | Unique covered BB addresses / total kcov-instrumented BB addresses in subsystem |
-| **Function Coverage** | Unique covered function names / total unique function names touched by any kcov point in subsystem |
+### Step 4 — `step4_analyze_compare.py`
+
+Generates three self-contained HTML reports, one per pair of test sources.
+Each report contains:
+
+- **Coverage summary cards** for both sides: BB rate and function rate per
+  subsystem, with color-coded progress bars.
+- **Venn-style counts** showing how many functions are shared, exclusive to A,
+  or exclusive to B.
+- **Searchable function tables** for each category (only-in-A, only-in-B,
+  both), with columns for function name, source file path, exclusive-to label,
+  and (when one side is `selftests-kvm`) the triggering test case names.
+
+---
+
+## Output File Formats
+
+### `*-rawcover-sum.txt` / `*-functions-sum.txt`
+```
+arch/riscv/kvm:4969
+virt:63
+total:5032
+```
+
+### `*-bb-cov.txt`
+```
+arch/riscv/kvm: covered=312 / total=4969 (6.28%)
+virt: covered=18 / total=63 (28.57%)
+```
+
+### `*-functions-cov.txt`
+```
+arch/riscv/kvm: covered=95 / total=723 (13.14%)
+virt: covered=5 / total=8 (62.50%)
+
+--- functions covered (arch/riscv/kvm) ---
+kvm_arch_vcpu_create    arch/riscv/kvm/vcpu.c
+kvm_vm_ioctl            arch/riscv/kvm/vm.c
+...
+
+--- functions covered (virt) ---
+kvm_vcpu_block          virt/kvm/kvm_main.c
+...
+```
+
+### `selftests-kvm-func-testcase-map.txt`
+```
+arch/riscv/kvm    kvm_arch_vcpu_create    set_sregs,kvm_create_max_vcpus
+virt              kvm_vcpu_block          set_sregs
+```
+
+---
+
+## Performance Notes
+
+| Step | Typical runtime | Bottleneck |
+|------|----------------|------------|
+| Step 1 | 1–5 min | `addr2line` over ~10k–100k addresses |
+| Step 2 | 5–20 min | `objdump -d` full disassembly of vmlinux |
+| Step 3 | < 5 sec | pure Python set operations |
+| Step 4 | < 5 sec | pure Python HTML generation |
+
+Steps 1 and 2 only need to run once per vmlinux / rawcover combination.
+After that, use `--steps 34` to iterate quickly on the analysis and reports.
+
+---
+
+## Troubleshooting
+
+**`Found 0 kcov instrumentation points`**
+- Confirm you are using `riscv64-linux-gnu-objdump`, not the host x86 version:
+  `riscv64-linux-gnu-objdump --version`
+- Verify the kernel was built with `CONFIG_KCOV=y`:
+  `grep CONFIG_KCOV /path/to/kernel/.config`
+
+**`Relevant unique (file:line, function) pairs: 1` (or very few)**
+- This was caused by using `addr2line -i` (inline expansion), which produces
+  a variable number of output lines per address and breaks batch indexing.
+  The current scripts use plain `addr2line -f` (no `-i`) — each address
+  produces exactly two output lines.
+
+**Functions appear in the wrong subsystem (e.g., `virt/` functions in kvm)**
+- This was caused by unresolved `..` in compiler-generated paths like
+  `arch/riscv/kvm/../../../virt/kvm/foo.c`. The current scripts apply
+  `os.path.normpath()` before subsystem classification.
+
+**`addr2line returns ??:0` for all addresses**
+- The `vmlinux` was built without debug info. Rebuild with `CONFIG_DEBUG_INFO=y`.
+- Alternatively, the `vmlinux` does not match the kernel that produced the
+  rawcover data (e.g., different build, different commit).
+
+**Very low virt/ function count**
+- This is expected: most of the generic `virt/kvm/` code is inlined or
+  called through function pointers that kcov may attribute to the call site
+  in `arch/riscv/kvm/` rather than the definition in `virt/`. The path
+  normalization fix addresses the most common case; some residual
+  attribution differences are inherent to how the compiler optimizes the code.

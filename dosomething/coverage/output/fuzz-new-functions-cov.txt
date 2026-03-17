@@ -2,461 +2,461 @@ arch/riscv/kvm: covered=288 / total=428 (67.29%)
 virt: covered=167 / total=314 (53.18%)
 
 --- functions covered (arch/riscv/kvm) ---
-__kvm_riscv_vcpu_power_off
-__local_hfence_gvma_all
-aia_aplic_addr
-aia_config
-aia_create
-aia_destroy
-aia_get_attr
-aia_has_attr
-aia_imsic_addr
-aia_imsic_hart_index
-aia_imsic_ppn
-aia_init
-aia_set_attr
-aplic_mmio_read_offset
-aplic_mmio_write
-aplic_mmio_write_offset
-aplic_read_input
-aplic_read_input_word
-aplic_read_pending
-aplic_read_pending_word
-aplic_read_sourcecfg
-aplic_read_target
-aplic_update_irq_range
-aplic_write_enabled
-aplic_write_enabled_word
-aplic_write_pending
-aplic_write_pending_word
-aplic_write_sourcecfg
-copy_config_reg_indices
-copy_core_reg_indices
-copy_csr_reg_indices
-copy_fp_d_reg_indices
-copy_fp_f_reg_indices
-copy_isa_ext_reg_indices
-copy_timer_reg_indices
-copy_vector_reg_indices
-csr_insn
-fault_supports_gstage_huge_mapping
-gstage_level_to_page_order
-gstage_level_to_page_size
-gstage_page_fault
-gstage_page_size_to_level
-gstage_pte_index
-gstage_tlb_flush
-imsic_eix_read
-imsic_eix_set
-imsic_eix_write
-imsic_mrif_atomic_rmw
-imsic_mrif_isel_check
-imsic_mrif_rmw
-imsic_mrif_topei
-imsic_swfile_extirq_update
-imsic_swfile_read
-imsic_vsfile_local_clear
-imsic_vsfile_local_rw
-imsic_vsfile_local_update
-imsic_vsfile_read
-imsic_vsfile_rw
-kvm_arch_can_set_irq_routing
-kvm_arch_commit_memory_region
-kvm_arch_destroy_vm
-kvm_arch_dev_ioctl
-kvm_arch_flush_remote_tlbs_range
-kvm_arch_flush_shadow_all
-kvm_arch_flush_shadow_memslot
-kvm_arch_free_memslot
-kvm_arch_init_vm
-kvm_arch_irqchip_in_kernel
-kvm_arch_memslots_updated
-kvm_arch_mmu_enable_log_dirty_pt_masked
-kvm_arch_prepare_memory_region
-kvm_arch_set_irq_inatomic
-kvm_arch_sync_dirty_log
-kvm_arch_vcpu_create
-kvm_arch_vcpu_destroy
-kvm_arch_vcpu_fault
-kvm_arch_vcpu_ioctl
-kvm_arch_vcpu_ioctl_get_fpu
-kvm_arch_vcpu_ioctl_get_mpstate
-kvm_arch_vcpu_ioctl_get_sregs
-kvm_arch_vcpu_ioctl_run
-kvm_arch_vcpu_ioctl_set_fpu
-kvm_arch_vcpu_ioctl_set_guest_debug
-kvm_arch_vcpu_ioctl_set_mpstate
-kvm_arch_vcpu_ioctl_set_regs
-kvm_arch_vcpu_ioctl_set_sregs
-kvm_arch_vcpu_ioctl_translate
-kvm_arch_vcpu_load
-kvm_arch_vcpu_postcreate
-kvm_arch_vcpu_precreate
-kvm_arch_vcpu_put
-kvm_arch_vcpu_unlocked_ioctl
-kvm_arch_vm_ioctl
-kvm_get_vcpu_by_id
-kvm_riscv_aia_alloc_hgei
-kvm_riscv_aia_aplic_cleanup
-kvm_riscv_aia_aplic_get_attr
-kvm_riscv_aia_aplic_has_attr
-kvm_riscv_aia_aplic_init
-kvm_riscv_aia_aplic_inject
-kvm_riscv_aia_aplic_set_attr
-kvm_riscv_aia_destroy_vm
-kvm_riscv_aia_free_hgei
-kvm_riscv_aia_imsic_has_attr
-kvm_riscv_aia_imsic_rw_attr
-kvm_riscv_aia_init_vm
-kvm_riscv_aia_inject_irq
-kvm_riscv_aia_inject_msi
-kvm_riscv_aia_inject_msi_by_id
-kvm_riscv_check_vcpu_requests
-kvm_riscv_gstage_get_leaf
-kvm_riscv_gstage_map_page
-kvm_riscv_gstage_op_pte
-kvm_riscv_gstage_set_pte
-kvm_riscv_gstage_unmap_range
-kvm_riscv_gstage_vmid_bits
-kvm_riscv_gstage_vmid_init
-kvm_riscv_gstage_vmid_update
-kvm_riscv_gstage_vmid_ver_changed
-kvm_riscv_gstage_wp_range
-kvm_riscv_guest_timer_init
-kvm_riscv_hfence_gvma_vmid_gpa
-kvm_riscv_hfence_process
-kvm_riscv_local_hfence_gvma_all
-kvm_riscv_local_hfence_gvma_vmid_gpa
-kvm_riscv_local_tlb_sanitize
-kvm_riscv_mmu_alloc_pgd
-kvm_riscv_mmu_free_pgd
-kvm_riscv_mmu_ioremap
-kvm_riscv_mmu_map
-kvm_riscv_mmu_update_hgatp
-kvm_riscv_reset_vcpu
-kvm_riscv_set_irq
-kvm_riscv_setup_default_irq_routing
-kvm_riscv_update_hvip
-kvm_riscv_vcpu_aia_deinit
-kvm_riscv_vcpu_aia_get_csr
-kvm_riscv_vcpu_aia_imsic_cleanup
-kvm_riscv_vcpu_aia_imsic_init
-kvm_riscv_vcpu_aia_imsic_inject
-kvm_riscv_vcpu_aia_imsic_load
-kvm_riscv_vcpu_aia_imsic_put
-kvm_riscv_vcpu_aia_imsic_reset
-kvm_riscv_vcpu_aia_imsic_rmw
-kvm_riscv_vcpu_aia_imsic_update
-kvm_riscv_vcpu_aia_init
-kvm_riscv_vcpu_aia_load
-kvm_riscv_vcpu_aia_put
-kvm_riscv_vcpu_aia_reset
-kvm_riscv_vcpu_aia_rmw_topei
-kvm_riscv_vcpu_aia_set_csr
-kvm_riscv_vcpu_aia_update
-kvm_riscv_vcpu_aia_update_hvip
-kvm_riscv_vcpu_alloc_vector_context
-kvm_riscv_vcpu_base2isa_ext
-kvm_riscv_vcpu_context_reset
-kvm_riscv_vcpu_copy_reg_indices
-kvm_riscv_vcpu_exit
-kvm_riscv_vcpu_flush_interrupts
-kvm_riscv_vcpu_fp_clean
-kvm_riscv_vcpu_fp_reset
-kvm_riscv_vcpu_free_vector_context
-kvm_riscv_vcpu_general_get_csr
-kvm_riscv_vcpu_general_set_csr
-kvm_riscv_vcpu_get_reg
-kvm_riscv_vcpu_get_reg_config
-kvm_riscv_vcpu_get_reg_core
-kvm_riscv_vcpu_get_reg_csr
-kvm_riscv_vcpu_get_reg_fp
-kvm_riscv_vcpu_get_reg_isa_ext
-kvm_riscv_vcpu_get_reg_sbi
-kvm_riscv_vcpu_get_reg_sbi_ext
-kvm_riscv_vcpu_get_reg_timer
-kvm_riscv_vcpu_get_reg_vector
-kvm_riscv_vcpu_guest_fp_restore
-kvm_riscv_vcpu_guest_fp_save
-kvm_riscv_vcpu_guest_vector_restore
-kvm_riscv_vcpu_guest_vector_save
-kvm_riscv_vcpu_host_fp_restore
-kvm_riscv_vcpu_host_fp_save
-kvm_riscv_vcpu_host_vector_restore
-kvm_riscv_vcpu_host_vector_save
-kvm_riscv_vcpu_isa_check_host
-kvm_riscv_vcpu_isa_disable_allowed
-kvm_riscv_vcpu_isa_enable_allowed
-kvm_riscv_vcpu_mmio_load
-kvm_riscv_vcpu_mmio_return
-kvm_riscv_vcpu_mmio_store
-kvm_riscv_vcpu_pmu_deinit
-kvm_riscv_vcpu_pmu_incr_fw
-kvm_riscv_vcpu_pmu_init
-kvm_riscv_vcpu_pmu_read_hpm
-kvm_riscv_vcpu_pmu_reset
-kvm_riscv_vcpu_record_steal_time
-kvm_riscv_vcpu_reg_indices_sbi
-kvm_riscv_vcpu_reg_indices_sbi_ext
-kvm_riscv_vcpu_sbi_deinit
-kvm_riscv_vcpu_sbi_ecall
-kvm_riscv_vcpu_sbi_forward_handler
-kvm_riscv_vcpu_sbi_init
-kvm_riscv_vcpu_sbi_reset
-kvm_riscv_vcpu_sbi_return
-kvm_riscv_vcpu_sbi_sta_reset
-kvm_riscv_vcpu_set_reg
-kvm_riscv_vcpu_set_reg_config
-kvm_riscv_vcpu_set_reg_core
-kvm_riscv_vcpu_set_reg_csr
-kvm_riscv_vcpu_set_reg_fp
-kvm_riscv_vcpu_set_reg_isa_ext
-kvm_riscv_vcpu_set_reg_sbi
-kvm_riscv_vcpu_set_reg_sbi_ext
-kvm_riscv_vcpu_set_reg_timer
-kvm_riscv_vcpu_set_reg_vector
-kvm_riscv_vcpu_setup_config
-kvm_riscv_vcpu_setup_isa
-kvm_riscv_vcpu_smstateen_get_csr
-kvm_riscv_vcpu_smstateen_set_csr
-kvm_riscv_vcpu_sync_interrupts
-kvm_riscv_vcpu_timer_blocking
-kvm_riscv_vcpu_timer_cancel
-kvm_riscv_vcpu_timer_deinit
-kvm_riscv_vcpu_timer_init
-kvm_riscv_vcpu_timer_next_event
-kvm_riscv_vcpu_timer_reset
-kvm_riscv_vcpu_timer_restore
-kvm_riscv_vcpu_timer_save
-kvm_riscv_vcpu_timer_sync
-kvm_riscv_vcpu_trap_redirect
-kvm_riscv_vcpu_unset_interrupt
-kvm_riscv_vcpu_update_timedelta
-kvm_riscv_vcpu_update_vstimecmp
-kvm_riscv_vcpu_vector_clean
-kvm_riscv_vcpu_vector_reset
-kvm_riscv_vcpu_virtual_insn
-kvm_riscv_vcpu_vreg_addr
-kvm_sbi_ext_base_handler
-kvm_sbi_ext_fwft_deinit
-kvm_sbi_ext_fwft_get_reg
-kvm_sbi_ext_fwft_get_reg_count
-kvm_sbi_ext_fwft_get_reg_id
-kvm_sbi_ext_fwft_init
-kvm_sbi_ext_fwft_reset
-kvm_sbi_ext_fwft_set_reg
-kvm_sbi_ext_pmu_probe
-kvm_sbi_ext_sta_get_reg
-kvm_sbi_ext_sta_get_state_reg_count
-kvm_sbi_ext_sta_probe
-kvm_sbi_ext_sta_set_reg
-kvm_sbi_fwft_get_config
-kvm_sbi_fwft_get_misaligned_delegation
-kvm_sbi_fwft_get_pointer_masking_pmlen
-kvm_sbi_fwft_misaligned_delegation_supported
-kvm_sbi_fwft_pointer_masking_pmlen_supported
-kvm_sbi_fwft_regnum_to_feature
-kvm_sbi_fwft_reset_misaligned_delegation
-kvm_sbi_fwft_reset_pointer_masking_pmlen
-kvm_sbi_fwft_set_misaligned_delegation
-kvm_sbi_fwft_set_pointer_masking_pmlen
-kvm_set_msi
-kvm_set_routing_entry
-kvm_unmap_gfn_range
-kvm_vcpu_sbi_find_ext
-kvm_vcpu_sbi_find_ext_withstate
-kvm_vm_ioctl_check_extension
-kvm_vm_ioctl_enable_cap
-kvm_vm_ioctl_irq_line
-make_xfence_request
-mmu_wp_memory_region
-num_config_regs
-num_csr_regs
-num_fp_d_regs
-num_fp_f_regs
-num_isa_ext_regs
-num_vector_regs
-pmu_ctr_read
-riscv_vcpu_get_isa_ext_single
-riscv_vcpu_get_sbi_ext
-riscv_vcpu_get_sbi_ext_multi
-riscv_vcpu_get_sbi_ext_single
-riscv_vcpu_set_sbi_ext_single
-system_opcode_insn
-trace_kvm_entry
-trace_kvm_exit
-truly_illegal_insn
-try_to_set_pmm
-vcpu_hfence_dequeue
-vcpu_hfence_enqueue
-vcpu_redirect
+__kvm_riscv_vcpu_power_off	arch/riscv/kvm/vcpu.c
+__local_hfence_gvma_all	arch/riscv/kvm/vmid.c
+aia_aplic_addr	arch/riscv/kvm/aia_device.c
+aia_config	arch/riscv/kvm/aia_device.c
+aia_create	arch/riscv/kvm/aia_device.c
+aia_destroy	arch/riscv/kvm/aia_device.c
+aia_get_attr	arch/riscv/kvm/aia_device.c
+aia_has_attr	arch/riscv/kvm/aia_device.c
+aia_imsic_addr	arch/riscv/kvm/aia_device.c
+aia_imsic_hart_index	arch/riscv/kvm/aia_device.c
+aia_imsic_ppn	arch/riscv/kvm/aia_device.c
+aia_init	arch/riscv/kvm/aia_device.c
+aia_set_attr	arch/riscv/kvm/aia_device.c
+aplic_mmio_read_offset	arch/riscv/kvm/aia_aplic.c
+aplic_mmio_write	arch/riscv/kvm/aia_aplic.c
+aplic_mmio_write_offset	arch/riscv/kvm/aia_aplic.c
+aplic_read_input	arch/riscv/kvm/aia_aplic.c
+aplic_read_input_word	arch/riscv/kvm/aia_aplic.c
+aplic_read_pending	arch/riscv/kvm/aia_aplic.c
+aplic_read_pending_word	arch/riscv/kvm/aia_aplic.c
+aplic_read_sourcecfg	arch/riscv/kvm/aia_aplic.c
+aplic_read_target	arch/riscv/kvm/aia_aplic.c
+aplic_update_irq_range	arch/riscv/kvm/aia_aplic.c
+aplic_write_enabled	arch/riscv/kvm/aia_aplic.c
+aplic_write_enabled_word	arch/riscv/kvm/aia_aplic.c
+aplic_write_pending	arch/riscv/kvm/aia_aplic.c
+aplic_write_pending_word	arch/riscv/kvm/aia_aplic.c
+aplic_write_sourcecfg	arch/riscv/kvm/aia_aplic.c
+copy_config_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_core_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_csr_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_fp_d_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_fp_f_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_isa_ext_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_timer_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+copy_vector_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+csr_insn	arch/riscv/kvm/vcpu_insn.c
+fault_supports_gstage_huge_mapping	arch/riscv/kvm/mmu.c
+gstage_level_to_page_order	arch/riscv/kvm/gstage.c
+gstage_level_to_page_size	arch/riscv/kvm/gstage.c
+gstage_page_fault	arch/riscv/kvm/vcpu_exit.c
+gstage_page_size_to_level	arch/riscv/kvm/gstage.c
+gstage_pte_index	arch/riscv/kvm/gstage.c
+gstage_tlb_flush	arch/riscv/kvm/gstage.c
+imsic_eix_read	arch/riscv/kvm/aia_imsic.c
+imsic_eix_set	arch/riscv/kvm/aia_imsic.c
+imsic_eix_write	arch/riscv/kvm/aia_imsic.c
+imsic_mrif_atomic_rmw	arch/riscv/kvm/aia_imsic.c
+imsic_mrif_isel_check	arch/riscv/kvm/aia_imsic.c
+imsic_mrif_rmw	arch/riscv/kvm/aia_imsic.c
+imsic_mrif_topei	arch/riscv/kvm/aia_imsic.c
+imsic_swfile_extirq_update	arch/riscv/kvm/aia_imsic.c
+imsic_swfile_read	arch/riscv/kvm/aia_imsic.c
+imsic_vsfile_local_clear	arch/riscv/kvm/aia_imsic.c
+imsic_vsfile_local_rw	arch/riscv/kvm/aia_imsic.c
+imsic_vsfile_local_update	arch/riscv/kvm/aia_imsic.c
+imsic_vsfile_read	arch/riscv/kvm/aia_imsic.c
+imsic_vsfile_rw	arch/riscv/kvm/aia_imsic.c
+kvm_arch_can_set_irq_routing	arch/riscv/kvm/vm.c
+kvm_arch_commit_memory_region	arch/riscv/kvm/mmu.c
+kvm_arch_destroy_vm	arch/riscv/kvm/vm.c
+kvm_arch_dev_ioctl	arch/riscv/kvm/main.c
+kvm_arch_flush_remote_tlbs_range	arch/riscv/kvm/tlb.c
+kvm_arch_flush_shadow_all	arch/riscv/kvm/mmu.c
+kvm_arch_flush_shadow_memslot	arch/riscv/kvm/mmu.c
+kvm_arch_free_memslot	arch/riscv/kvm/mmu.c
+kvm_arch_init_vm	arch/riscv/kvm/vm.c
+kvm_arch_irqchip_in_kernel	arch/riscv/kvm/vm.c
+kvm_arch_memslots_updated	arch/riscv/kvm/mmu.c
+kvm_arch_mmu_enable_log_dirty_pt_masked	arch/riscv/kvm/mmu.c
+kvm_arch_prepare_memory_region	arch/riscv/kvm/mmu.c
+kvm_arch_set_irq_inatomic	arch/riscv/kvm/vm.c
+kvm_arch_sync_dirty_log	arch/riscv/kvm/mmu.c
+kvm_arch_vcpu_create	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_destroy	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_fault	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_get_fpu	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_get_mpstate	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_get_sregs	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_run	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_set_fpu	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_set_guest_debug	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_set_mpstate	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_set_regs	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_set_sregs	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_ioctl_translate	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_load	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_postcreate	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_precreate	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_put	arch/riscv/kvm/vcpu.c
+kvm_arch_vcpu_unlocked_ioctl	arch/riscv/kvm/vcpu.c
+kvm_arch_vm_ioctl	arch/riscv/kvm/vm.c
+kvm_get_vcpu_by_id	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_aia_alloc_hgei	arch/riscv/kvm/aia.c
+kvm_riscv_aia_aplic_cleanup	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_aplic_get_attr	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_aplic_has_attr	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_aplic_init	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_aplic_inject	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_aplic_set_attr	arch/riscv/kvm/aia_aplic.c
+kvm_riscv_aia_destroy_vm	arch/riscv/kvm/aia_device.c
+kvm_riscv_aia_free_hgei	arch/riscv/kvm/aia.c
+kvm_riscv_aia_imsic_has_attr	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_aia_imsic_rw_attr	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_aia_init_vm	arch/riscv/kvm/aia_device.c
+kvm_riscv_aia_inject_irq	arch/riscv/kvm/aia_device.c
+kvm_riscv_aia_inject_msi	arch/riscv/kvm/aia_device.c
+kvm_riscv_aia_inject_msi_by_id	arch/riscv/kvm/aia_device.c
+kvm_riscv_check_vcpu_requests	arch/riscv/kvm/vcpu.c
+kvm_riscv_gstage_get_leaf	arch/riscv/kvm/gstage.c
+kvm_riscv_gstage_map_page	arch/riscv/kvm/gstage.c
+kvm_riscv_gstage_op_pte	arch/riscv/kvm/gstage.c
+kvm_riscv_gstage_set_pte	arch/riscv/kvm/gstage.c
+kvm_riscv_gstage_unmap_range	arch/riscv/kvm/gstage.c
+kvm_riscv_gstage_vmid_bits	arch/riscv/kvm/vmid.c
+kvm_riscv_gstage_vmid_init	arch/riscv/kvm/vmid.c
+kvm_riscv_gstage_vmid_update	arch/riscv/kvm/vmid.c
+kvm_riscv_gstage_vmid_ver_changed	arch/riscv/kvm/vmid.c
+kvm_riscv_gstage_wp_range	arch/riscv/kvm/gstage.c
+kvm_riscv_guest_timer_init	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_hfence_gvma_vmid_gpa	arch/riscv/kvm/tlb.c
+kvm_riscv_hfence_process	arch/riscv/kvm/tlb.c
+kvm_riscv_local_hfence_gvma_all	arch/riscv/kvm/tlb.c
+kvm_riscv_local_hfence_gvma_vmid_gpa	arch/riscv/kvm/tlb.c
+kvm_riscv_local_tlb_sanitize	arch/riscv/kvm/tlb.c
+kvm_riscv_mmu_alloc_pgd	arch/riscv/kvm/mmu.c
+kvm_riscv_mmu_free_pgd	arch/riscv/kvm/mmu.c
+kvm_riscv_mmu_ioremap	arch/riscv/kvm/mmu.c
+kvm_riscv_mmu_map	arch/riscv/kvm/mmu.c
+kvm_riscv_mmu_update_hgatp	arch/riscv/kvm/mmu.c
+kvm_riscv_reset_vcpu	arch/riscv/kvm/vcpu.c
+kvm_riscv_set_irq	arch/riscv/kvm/vm.c
+kvm_riscv_setup_default_irq_routing	arch/riscv/kvm/vm.c
+kvm_riscv_update_hvip	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_aia_deinit	arch/riscv/kvm/aia_device.c
+kvm_riscv_vcpu_aia_get_csr	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_aia_imsic_cleanup	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_init	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_inject	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_load	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_put	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_reset	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_rmw	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_imsic_update	arch/riscv/kvm/aia_imsic.c
+kvm_riscv_vcpu_aia_init	arch/riscv/kvm/aia_device.c
+kvm_riscv_vcpu_aia_load	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_aia_put	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_aia_reset	arch/riscv/kvm/aia_device.c
+kvm_riscv_vcpu_aia_rmw_topei	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_aia_set_csr	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_aia_update	arch/riscv/kvm/aia_device.c
+kvm_riscv_vcpu_aia_update_hvip	arch/riscv/kvm/aia.c
+kvm_riscv_vcpu_alloc_vector_context	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_base2isa_ext	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_context_reset	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_copy_reg_indices	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_exit	arch/riscv/kvm/vcpu_exit.c
+kvm_riscv_vcpu_flush_interrupts	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_fp_clean	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_fp_reset	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_free_vector_context	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_general_get_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_general_set_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg_config	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg_core	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg_fp	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_get_reg_isa_ext	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_get_reg_sbi	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_get_reg_sbi_ext	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_get_reg_timer	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_get_reg_vector	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_guest_fp_restore	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_guest_fp_save	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_guest_vector_restore	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_guest_vector_save	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_host_fp_restore	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_host_fp_save	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_host_vector_restore	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_host_vector_save	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_isa_check_host	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_isa_disable_allowed	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_isa_enable_allowed	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_mmio_load	arch/riscv/kvm/vcpu_insn.c
+kvm_riscv_vcpu_mmio_return	arch/riscv/kvm/vcpu_insn.c
+kvm_riscv_vcpu_mmio_store	arch/riscv/kvm/vcpu_insn.c
+kvm_riscv_vcpu_pmu_deinit	arch/riscv/kvm/vcpu_pmu.c
+kvm_riscv_vcpu_pmu_incr_fw	arch/riscv/kvm/vcpu_pmu.c
+kvm_riscv_vcpu_pmu_init	arch/riscv/kvm/vcpu_pmu.c
+kvm_riscv_vcpu_pmu_read_hpm	arch/riscv/kvm/vcpu_pmu.c
+kvm_riscv_vcpu_pmu_reset	arch/riscv/kvm/vcpu_pmu.c
+kvm_riscv_vcpu_record_steal_time	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_riscv_vcpu_reg_indices_sbi	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_reg_indices_sbi_ext	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_deinit	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_ecall	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_forward_handler	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_init	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_reset	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_return	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_sbi_sta_reset	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_riscv_vcpu_set_reg	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_set_reg_config	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_set_reg_core	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_set_reg_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_set_reg_fp	arch/riscv/kvm/vcpu_fp.c
+kvm_riscv_vcpu_set_reg_isa_ext	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_set_reg_sbi	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_set_reg_sbi_ext	arch/riscv/kvm/vcpu_sbi.c
+kvm_riscv_vcpu_set_reg_timer	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_set_reg_vector	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_setup_config	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_setup_isa	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_smstateen_get_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_smstateen_set_csr	arch/riscv/kvm/vcpu_onereg.c
+kvm_riscv_vcpu_sync_interrupts	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_timer_blocking	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_cancel	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_deinit	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_init	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_next_event	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_reset	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_restore	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_save	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_timer_sync	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_trap_redirect	arch/riscv/kvm/vcpu_exit.c
+kvm_riscv_vcpu_unset_interrupt	arch/riscv/kvm/vcpu.c
+kvm_riscv_vcpu_update_timedelta	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_update_vstimecmp	arch/riscv/kvm/vcpu_timer.c
+kvm_riscv_vcpu_vector_clean	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_vector_reset	arch/riscv/kvm/vcpu_vector.c
+kvm_riscv_vcpu_virtual_insn	arch/riscv/kvm/vcpu_insn.c
+kvm_riscv_vcpu_vreg_addr	arch/riscv/kvm/vcpu_vector.c
+kvm_sbi_ext_base_handler	arch/riscv/kvm/vcpu_sbi_base.c
+kvm_sbi_ext_fwft_deinit	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_get_reg	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_get_reg_count	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_get_reg_id	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_init	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_reset	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_fwft_set_reg	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_ext_pmu_probe	arch/riscv/kvm/vcpu_sbi_pmu.c
+kvm_sbi_ext_sta_get_reg	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_sbi_ext_sta_get_state_reg_count	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_sbi_ext_sta_probe	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_sbi_ext_sta_set_reg	arch/riscv/kvm/vcpu_sbi_sta.c
+kvm_sbi_fwft_get_config	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_get_misaligned_delegation	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_get_pointer_masking_pmlen	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_misaligned_delegation_supported	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_pointer_masking_pmlen_supported	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_regnum_to_feature	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_reset_misaligned_delegation	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_reset_pointer_masking_pmlen	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_set_misaligned_delegation	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_sbi_fwft_set_pointer_masking_pmlen	arch/riscv/kvm/vcpu_sbi_fwft.c
+kvm_set_msi	arch/riscv/kvm/vm.c
+kvm_set_routing_entry	arch/riscv/kvm/vm.c
+kvm_unmap_gfn_range	arch/riscv/kvm/mmu.c
+kvm_vcpu_sbi_find_ext	arch/riscv/kvm/vcpu_sbi.c
+kvm_vcpu_sbi_find_ext_withstate	arch/riscv/kvm/vcpu_sbi.c
+kvm_vm_ioctl_check_extension	arch/riscv/kvm/vm.c
+kvm_vm_ioctl_enable_cap	arch/riscv/kvm/vm.c
+kvm_vm_ioctl_irq_line	arch/riscv/kvm/vm.c
+make_xfence_request	arch/riscv/kvm/tlb.c
+mmu_wp_memory_region	arch/riscv/kvm/mmu.c
+num_config_regs	arch/riscv/kvm/vcpu_onereg.c
+num_csr_regs	arch/riscv/kvm/vcpu_onereg.c
+num_fp_d_regs	arch/riscv/kvm/vcpu_onereg.c
+num_fp_f_regs	arch/riscv/kvm/vcpu_onereg.c
+num_isa_ext_regs	arch/riscv/kvm/vcpu_onereg.c
+num_vector_regs	arch/riscv/kvm/vcpu_onereg.c
+pmu_ctr_read	arch/riscv/kvm/vcpu_pmu.c
+riscv_vcpu_get_isa_ext_single	arch/riscv/kvm/vcpu_onereg.c
+riscv_vcpu_get_sbi_ext	arch/riscv/kvm/vcpu_sbi.c
+riscv_vcpu_get_sbi_ext_multi	arch/riscv/kvm/vcpu_sbi.c
+riscv_vcpu_get_sbi_ext_single	arch/riscv/kvm/vcpu_sbi.c
+riscv_vcpu_set_sbi_ext_single	arch/riscv/kvm/vcpu_sbi.c
+system_opcode_insn	arch/riscv/kvm/vcpu_insn.c
+trace_kvm_entry	arch/riscv/kvm/trace.h
+trace_kvm_exit	arch/riscv/kvm/trace.h
+truly_illegal_insn	arch/riscv/kvm/vcpu_insn.c
+try_to_set_pmm	arch/riscv/kvm/vcpu_sbi_fwft.c
+vcpu_hfence_dequeue	arch/riscv/kvm/tlb.c
+vcpu_hfence_enqueue	arch/riscv/kvm/tlb.c
+vcpu_redirect	arch/riscv/kvm/vcpu_exit.c
 
 --- functions covered (virt) ---
-__gfn_to_hva_many
-__kvm_faultin_pfn
-__kvm_io_bus_read
-__kvm_io_bus_write
-__kvm_mmu_topup_memory_cache
-__kvm_vcpu_kick
-check_memory_region_flags
-coalesced_mmio_in_range
-coalesced_mmio_write
-create_vcpu_fd
-free_irq_routing_table
-gfn_to_hva_memslot_prot
-gfn_to_memslot
-hva_to_pfn
-hva_to_pfn_fast
-hva_to_pfn_slow
-ioeventfd_bus_from_flags
-ioeventfd_check_collision
-irqfd_deactivate
-irqfd_is_active
-irqfd_resampler_shutdown
-irqfd_update
-irqfd_wakeup
-kvm_activate_memslot
-kvm_arch_create_vm_debugfs
-kvm_arch_guest_memory_reclaimed
-kvm_arch_irq_routing_update
-kvm_arch_irqfd_allowed
-kvm_arch_pre_destroy_vm
-kvm_assign_ioeventfd
-kvm_assign_ioeventfd_idx
-kvm_check_memslot_overlap
-kvm_clear_dirty_log_protect
-kvm_coalesced_mmio_free
-kvm_coalesced_mmio_init
-kvm_commit_memory_region
-kvm_copy_memslot
-kvm_cpu_dirty_log_size
-kvm_create_memslot
-kvm_create_vm
-kvm_create_vm_debugfs
-kvm_deassign_ioeventfd
-kvm_deassign_ioeventfd_idx
-kvm_delete_memslot
-kvm_destroy_dirty_bitmap
-kvm_destroy_vcpus
-kvm_destroy_vm
-kvm_destroy_vm_debugfs
-kvm_dev_ioctl
-kvm_dev_ioctl_create_vm
-kvm_device_ioctl
-kvm_device_ioctl_attr
-kvm_device_mmap
-kvm_device_release
-kvm_dirty_ring_alloc
-kvm_dirty_ring_check_request
-kvm_dirty_ring_free
-kvm_dirty_ring_get_rsvd_entries
-kvm_dirty_ring_push
-kvm_dirty_ring_reset
-kvm_dirty_ring_used
-kvm_erase_gfn_node
-kvm_flush_remote_tlbs_memslot
-kvm_follow_pfn
-kvm_free_irq_routing
-kvm_free_memslot
-kvm_free_memslots
-kvm_get_bus_for_destruction
-kvm_get_bus_srcu
-kvm_get_dirty_log_protect
-kvm_get_inactive_memslots
-kvm_get_kvm
-kvm_get_running_vcpu
-kvm_get_vcpu_by_id
-kvm_handle_hva_range
-kvm_init_irq_routing
-kvm_insert_gfn_node
-kvm_io_bus_cmp
-kvm_io_bus_destroy
-kvm_io_bus_get_first_dev
-kvm_io_bus_read
-kvm_io_bus_register_dev
-kvm_io_bus_sort_cmp
-kvm_io_bus_unregister_dev
-kvm_io_bus_write
-kvm_ioctl_create_device
-kvm_iodevice_destructor
-kvm_ioeventfd
-kvm_irq_map_gsi
-kvm_irq_routing_update
-kvm_irqfd
-kvm_irqfd_assign
-kvm_irqfd_deassign
-kvm_irqfd_register
-kvm_irqfd_release
-kvm_make_vcpu_request
-kvm_make_vcpus_request_mask
-kvm_memslots_get_as_id
-kvm_mmu_free_memory_cache
-kvm_mmu_invalidate_begin
-kvm_mmu_invalidate_end
-kvm_mmu_invalidate_range_add
-kvm_mmu_memory_cache_alloc
-kvm_mmu_notifier_invalidate_range_end
-kvm_mmu_notifier_invalidate_range_start
-kvm_mmu_topup_memory_cache
-kvm_mmu_unmap_gfn_range
-kvm_move_memslot
-kvm_no_compat_open
-kvm_page_in_dirty_ring
-kvm_prepare_memory_region
-kvm_put_kvm
-kvm_register_irq_ack_notifier
-kvm_release_page_clean
-kvm_release_page_dirty
-kvm_replace_gfn_node
-kvm_replace_memslot
-kvm_resolve_pfn
-kvm_send_userspace_msi
-kvm_set_irq
-kvm_set_irq_routing
-kvm_set_memory_region
-kvm_set_memslot
-kvm_set_page_accessed
-kvm_set_page_dirty
-kvm_sigset_activate
-kvm_sigset_deactivate
-kvm_swap_active_memslots
-kvm_trylock_all_vcpus
-kvm_uevent_notify_change
-kvm_unlock_all_vcpus
-kvm_unregister_irq_ack_notifier
-kvm_update_flags_memslot
-kvm_use_dirty_bitmap
-kvm_vcpu_destroy
-kvm_vcpu_fault
-kvm_vcpu_ioctl
-kvm_vcpu_ioctl_get_stats_fd
-kvm_vcpu_ioctl_set_sigmask
-kvm_vcpu_mmap
-kvm_vcpu_release
-kvm_vcpu_stats_release
-kvm_vcpu_wake_up
-kvm_vm_ioctl
-kvm_vm_ioctl_check_extension_generic
-kvm_vm_ioctl_clear_dirty_log
-kvm_vm_ioctl_create_vcpu
-kvm_vm_ioctl_enable_cap_generic
-kvm_vm_ioctl_enable_dirty_log_ring
-kvm_vm_ioctl_get_dirty_log
-kvm_vm_ioctl_get_stats_fd
-kvm_vm_ioctl_register_coalesced_mmio
-kvm_vm_ioctl_reset_dirty_pages
-kvm_vm_ioctl_set_memory_region
-kvm_vm_ioctl_unregister_coalesced_mmio
-kvm_vm_release
-kvm_wait_for_vcpu_online
-mark_page_dirty_in_slot
-memslot_is_readonly
-mmu_memory_cache_alloc_obj
-mmu_notifier_to_kvm
-preempt_notifier_to_vcpu
-setup_routing_entry
-to_ioeventfd
-to_mmio
-vcpu_load
-vcpu_put
+__gfn_to_hva_many	virt/kvm/kvm_main.c
+__kvm_faultin_pfn	virt/kvm/kvm_main.c
+__kvm_io_bus_read	virt/kvm/kvm_main.c
+__kvm_io_bus_write	virt/kvm/kvm_main.c
+__kvm_mmu_topup_memory_cache	virt/kvm/kvm_main.c
+__kvm_vcpu_kick	virt/kvm/kvm_main.c
+check_memory_region_flags	virt/kvm/kvm_main.c
+coalesced_mmio_in_range	virt/kvm/coalesced_mmio.c
+coalesced_mmio_write	virt/kvm/coalesced_mmio.c
+create_vcpu_fd	virt/kvm/kvm_main.c
+free_irq_routing_table	virt/kvm/irqchip.c
+gfn_to_hva_memslot_prot	virt/kvm/kvm_main.c
+gfn_to_memslot	virt/kvm/kvm_main.c
+hva_to_pfn	virt/kvm/kvm_main.c
+hva_to_pfn_fast	virt/kvm/kvm_main.c
+hva_to_pfn_slow	virt/kvm/kvm_main.c
+ioeventfd_bus_from_flags	virt/kvm/eventfd.c
+ioeventfd_check_collision	virt/kvm/eventfd.c
+irqfd_deactivate	virt/kvm/eventfd.c
+irqfd_is_active	virt/kvm/eventfd.c
+irqfd_resampler_shutdown	virt/kvm/eventfd.c
+irqfd_update	virt/kvm/eventfd.c
+irqfd_wakeup	virt/kvm/eventfd.c
+kvm_activate_memslot	virt/kvm/kvm_main.c
+kvm_arch_create_vm_debugfs	virt/kvm/kvm_main.c
+kvm_arch_guest_memory_reclaimed	virt/kvm/kvm_main.c
+kvm_arch_irq_routing_update	virt/kvm/irqchip.c
+kvm_arch_irqfd_allowed	virt/kvm/eventfd.c
+kvm_arch_pre_destroy_vm	virt/kvm/kvm_main.c
+kvm_assign_ioeventfd	virt/kvm/eventfd.c
+kvm_assign_ioeventfd_idx	virt/kvm/eventfd.c
+kvm_check_memslot_overlap	virt/kvm/kvm_main.c
+kvm_clear_dirty_log_protect	virt/kvm/kvm_main.c
+kvm_coalesced_mmio_free	virt/kvm/coalesced_mmio.c
+kvm_coalesced_mmio_init	virt/kvm/coalesced_mmio.c
+kvm_commit_memory_region	virt/kvm/kvm_main.c
+kvm_copy_memslot	virt/kvm/kvm_main.c
+kvm_cpu_dirty_log_size	virt/kvm/dirty_ring.c
+kvm_create_memslot	virt/kvm/kvm_main.c
+kvm_create_vm	virt/kvm/kvm_main.c
+kvm_create_vm_debugfs	virt/kvm/kvm_main.c
+kvm_deassign_ioeventfd	virt/kvm/eventfd.c
+kvm_deassign_ioeventfd_idx	virt/kvm/eventfd.c
+kvm_delete_memslot	virt/kvm/kvm_main.c
+kvm_destroy_dirty_bitmap	virt/kvm/kvm_main.c
+kvm_destroy_vcpus	virt/kvm/kvm_main.c
+kvm_destroy_vm	virt/kvm/kvm_main.c
+kvm_destroy_vm_debugfs	virt/kvm/kvm_main.c
+kvm_dev_ioctl	virt/kvm/kvm_main.c
+kvm_dev_ioctl_create_vm	virt/kvm/kvm_main.c
+kvm_device_ioctl	virt/kvm/kvm_main.c
+kvm_device_ioctl_attr	virt/kvm/kvm_main.c
+kvm_device_mmap	virt/kvm/kvm_main.c
+kvm_device_release	virt/kvm/kvm_main.c
+kvm_dirty_ring_alloc	virt/kvm/dirty_ring.c
+kvm_dirty_ring_check_request	virt/kvm/dirty_ring.c
+kvm_dirty_ring_free	virt/kvm/dirty_ring.c
+kvm_dirty_ring_get_rsvd_entries	virt/kvm/dirty_ring.c
+kvm_dirty_ring_push	virt/kvm/dirty_ring.c
+kvm_dirty_ring_reset	virt/kvm/dirty_ring.c
+kvm_dirty_ring_used	virt/kvm/dirty_ring.c
+kvm_erase_gfn_node	virt/kvm/kvm_main.c
+kvm_flush_remote_tlbs_memslot	virt/kvm/kvm_main.c
+kvm_follow_pfn	virt/kvm/kvm_main.c
+kvm_free_irq_routing	virt/kvm/irqchip.c
+kvm_free_memslot	virt/kvm/kvm_main.c
+kvm_free_memslots	virt/kvm/kvm_main.c
+kvm_get_bus_for_destruction	virt/kvm/kvm_main.c
+kvm_get_bus_srcu	virt/kvm/kvm_main.c
+kvm_get_dirty_log_protect	virt/kvm/kvm_main.c
+kvm_get_inactive_memslots	virt/kvm/kvm_main.c
+kvm_get_kvm	virt/kvm/kvm_main.c
+kvm_get_running_vcpu	virt/kvm/kvm_main.c
+kvm_get_vcpu_by_id	virt/kvm/kvm_main.c
+kvm_handle_hva_range	virt/kvm/kvm_main.c
+kvm_init_irq_routing	virt/kvm/irqchip.c
+kvm_insert_gfn_node	virt/kvm/kvm_main.c
+kvm_io_bus_cmp	virt/kvm/kvm_main.c
+kvm_io_bus_destroy	virt/kvm/kvm_main.c
+kvm_io_bus_get_first_dev	virt/kvm/kvm_main.c
+kvm_io_bus_read	virt/kvm/kvm_main.c
+kvm_io_bus_register_dev	virt/kvm/kvm_main.c
+kvm_io_bus_sort_cmp	virt/kvm/kvm_main.c
+kvm_io_bus_unregister_dev	virt/kvm/kvm_main.c
+kvm_io_bus_write	virt/kvm/kvm_main.c
+kvm_ioctl_create_device	virt/kvm/kvm_main.c
+kvm_iodevice_destructor	virt/kvm/kvm_main.c
+kvm_ioeventfd	virt/kvm/eventfd.c
+kvm_irq_map_gsi	virt/kvm/irqchip.c
+kvm_irq_routing_update	virt/kvm/eventfd.c
+kvm_irqfd	virt/kvm/eventfd.c
+kvm_irqfd_assign	virt/kvm/eventfd.c
+kvm_irqfd_deassign	virt/kvm/eventfd.c
+kvm_irqfd_register	virt/kvm/eventfd.c
+kvm_irqfd_release	virt/kvm/eventfd.c
+kvm_make_vcpu_request	virt/kvm/kvm_main.c
+kvm_make_vcpus_request_mask	virt/kvm/kvm_main.c
+kvm_memslots_get_as_id	virt/kvm/kvm_main.c
+kvm_mmu_free_memory_cache	virt/kvm/kvm_main.c
+kvm_mmu_invalidate_begin	virt/kvm/kvm_main.c
+kvm_mmu_invalidate_end	virt/kvm/kvm_main.c
+kvm_mmu_invalidate_range_add	virt/kvm/kvm_main.c
+kvm_mmu_memory_cache_alloc	virt/kvm/kvm_main.c
+kvm_mmu_notifier_invalidate_range_end	virt/kvm/kvm_main.c
+kvm_mmu_notifier_invalidate_range_start	virt/kvm/kvm_main.c
+kvm_mmu_topup_memory_cache	virt/kvm/kvm_main.c
+kvm_mmu_unmap_gfn_range	virt/kvm/kvm_main.c
+kvm_move_memslot	virt/kvm/kvm_main.c
+kvm_no_compat_open	virt/kvm/kvm_main.c
+kvm_page_in_dirty_ring	virt/kvm/kvm_main.c
+kvm_prepare_memory_region	virt/kvm/kvm_main.c
+kvm_put_kvm	virt/kvm/kvm_main.c
+kvm_register_irq_ack_notifier	virt/kvm/eventfd.c
+kvm_release_page_clean	virt/kvm/kvm_main.c
+kvm_release_page_dirty	virt/kvm/kvm_main.c
+kvm_replace_gfn_node	virt/kvm/kvm_main.c
+kvm_replace_memslot	virt/kvm/kvm_main.c
+kvm_resolve_pfn	virt/kvm/kvm_main.c
+kvm_send_userspace_msi	virt/kvm/irqchip.c
+kvm_set_irq	virt/kvm/irqchip.c
+kvm_set_irq_routing	virt/kvm/irqchip.c
+kvm_set_memory_region	virt/kvm/kvm_main.c
+kvm_set_memslot	virt/kvm/kvm_main.c
+kvm_set_page_accessed	virt/kvm/kvm_main.c
+kvm_set_page_dirty	virt/kvm/kvm_main.c
+kvm_sigset_activate	virt/kvm/kvm_main.c
+kvm_sigset_deactivate	virt/kvm/kvm_main.c
+kvm_swap_active_memslots	virt/kvm/kvm_main.c
+kvm_trylock_all_vcpus	virt/kvm/kvm_main.c
+kvm_uevent_notify_change	virt/kvm/kvm_main.c
+kvm_unlock_all_vcpus	virt/kvm/kvm_main.c
+kvm_unregister_irq_ack_notifier	virt/kvm/eventfd.c
+kvm_update_flags_memslot	virt/kvm/kvm_main.c
+kvm_use_dirty_bitmap	virt/kvm/dirty_ring.c
+kvm_vcpu_destroy	virt/kvm/kvm_main.c
+kvm_vcpu_fault	virt/kvm/kvm_main.c
+kvm_vcpu_ioctl	virt/kvm/kvm_main.c
+kvm_vcpu_ioctl_get_stats_fd	virt/kvm/kvm_main.c
+kvm_vcpu_ioctl_set_sigmask	virt/kvm/kvm_main.c
+kvm_vcpu_mmap	virt/kvm/kvm_main.c
+kvm_vcpu_release	virt/kvm/kvm_main.c
+kvm_vcpu_stats_release	virt/kvm/kvm_main.c
+kvm_vcpu_wake_up	virt/kvm/kvm_main.c
+kvm_vm_ioctl	virt/kvm/kvm_main.c
+kvm_vm_ioctl_check_extension_generic	virt/kvm/kvm_main.c
+kvm_vm_ioctl_clear_dirty_log	virt/kvm/kvm_main.c
+kvm_vm_ioctl_create_vcpu	virt/kvm/kvm_main.c
+kvm_vm_ioctl_enable_cap_generic	virt/kvm/kvm_main.c
+kvm_vm_ioctl_enable_dirty_log_ring	virt/kvm/kvm_main.c
+kvm_vm_ioctl_get_dirty_log	virt/kvm/kvm_main.c
+kvm_vm_ioctl_get_stats_fd	virt/kvm/kvm_main.c
+kvm_vm_ioctl_register_coalesced_mmio	virt/kvm/coalesced_mmio.c
+kvm_vm_ioctl_reset_dirty_pages	virt/kvm/kvm_main.c
+kvm_vm_ioctl_set_memory_region	virt/kvm/kvm_main.c
+kvm_vm_ioctl_unregister_coalesced_mmio	virt/kvm/coalesced_mmio.c
+kvm_vm_release	virt/kvm/kvm_main.c
+kvm_wait_for_vcpu_online	virt/kvm/kvm_main.c
+mark_page_dirty_in_slot	virt/kvm/kvm_main.c
+memslot_is_readonly	virt/kvm/kvm_main.c
+mmu_memory_cache_alloc_obj	virt/kvm/kvm_main.c
+mmu_notifier_to_kvm	virt/kvm/kvm_main.c
+preempt_notifier_to_vcpu	virt/kvm/kvm_main.c
+setup_routing_entry	virt/kvm/irqchip.c
+to_ioeventfd	virt/kvm/eventfd.c
+to_mmio	virt/kvm/coalesced_mmio.c
+vcpu_load	virt/kvm/kvm_main.c
+vcpu_put	virt/kvm/kvm_main.c
 
