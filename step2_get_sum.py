@@ -57,51 +57,83 @@ def find_tool(*candidates: str) -> str:
 
 # ── Address extraction ────────────────────────────────────────────────────────
 
+def get_init_exit_ranges(vmlinux: str, objdump: str) -> list[tuple[int, int]]:
+    """
+    Parse 'objdump -h vmlinux' to find address ranges of .init.text and
+    .exit.text sections. __init/__exit functions live here and cannot be
+    triggered at runtime, so they must be excluded from the denominator.
+    Returns list of (start, end) integer pairs (end exclusive).
+    """
+    ranges: list[tuple[int, int]] = []
+    try:
+        out = subprocess.check_output(
+            [objdump, "-h", vmlinux],
+            stderr=subprocess.DEVNULL, text=True,
+        )
+    except subprocess.CalledProcessError:
+        return ranges
+    for line in out.splitlines():
+        parts = line.split()
+        if len(parts) < 4:
+            continue
+        name = parts[1]
+        if name not in (".init.text", ".exit.text"):
+            continue
+        try:
+            size  = int(parts[2], 16)
+            start = int(parts[3], 16)
+            ranges.append((start, start + size))
+            print(f"  [init/exit filter] {name}: "
+                  f"0x{start:016x} - 0x{start+size:016x}")
+        except (ValueError, IndexError):
+            continue
+    if not ranges:
+        print("  [init/exit filter] No .init.text/.exit.text found")
+    return ranges
+
+
 def extract_kcov_addrs(vmlinux: str, objdump: str) -> list[str]:
     """
-    Stream objdump -d output, capture the address of the jalr instruction
-    that calls __sanitizer_cov_trace_pc.
-
-    Verified from actual rawcover data: the address kcov records IS the call
-    instruction itself, e.g.:
-        ffffffff80007544:   jalr  -40(ra) # ffffffff8050f518 <__sanitizer_cov_trace_pc>
-        ↑ 0xffffffff80007544 is exactly what appears in rawcover
-
-    So we grab the address field of every line containing "__sanitizer_cov_trace_pc>".
+    Scan objdump -d output for jalr __sanitizer_cov_trace_pc call sites.
+    Skips addresses in .init.text / .exit.text (unreachable at runtime).
     """
+    init_exit_ranges = get_init_exit_ranges(vmlinux, objdump)
+
     print(f"  Running {os.path.basename(objdump)} on {os.path.basename(vmlinux)} ...")
     cmd = [objdump, "-d", "--no-show-raw-insn", vmlinux]
 
-    addrs: list[str] = []
+    seen:    set[str]  = set()
+    unique:  list[str] = []
+    skipped: int       = 0
 
     try:
         proc = subprocess.Popen(
-            cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.DEVNULL,
-            text=True,
-            bufsize=1 << 20,
+            cmd, stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL, text=True, bufsize=1 << 20,
         )
         for line in proc.stdout:
             if "__sanitizer_cov_trace_pc>" not in line:
                 continue
             m = re.match(r"^\s*([0-9a-f]+):", line)
-            if m:
-                addrs.append("0x" + m.group(1))
+            if not m:
+                continue
+            a_hex = m.group(1)
+            a_int = int(a_hex, 16)
+            if init_exit_ranges and any(s <= a_int < e for s, e in init_exit_ranges):
+                skipped += 1
+                continue
+            a = "0x" + a_hex
+            if a not in seen:
+                seen.add(a)
+                unique.append(a)
         proc.wait()
     except FileNotFoundError:
         print(f"  ERROR: {objdump} not found.")
         sys.exit(1)
 
-    # Deduplicate while preserving order
-    seen: set[str] = set()
-    unique: list[str] = []
-    for a in addrs:
-        if a not in seen:
-            seen.add(a)
-            unique.append(a)
-
-    print(f"  Found {len(unique)} unique kcov instrumentation points")
+    if skipped:
+        print(f"  Skipped {skipped} __init/__exit kcov points")
+    print(f"  Found {len(unique)} unique kcov instrumentation points (runtime-reachable)")
     return unique
 
 
